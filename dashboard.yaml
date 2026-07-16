@@ -1,0 +1,581 @@
+title: Thuis
+views:
+  ##############################################
+  # VIEW 1 - OVERZICHT
+  ##############################################
+  - title: Overzicht
+    path: overzicht
+    icon: mdi:home
+    cards:
+      # --- Personen aanwezigheid ---
+      - type: horizontal-stack
+        cards:
+          - type: entity
+            entity: person.pieter
+            name: Pieter
+            icon: mdi:account
+          - type: entity
+            entity: person.friede
+            name: Friede
+            icon: mdi:account
+
+      # --- Buitentemperatuur & weer ---
+      - type: glance
+        title: Buiten
+        entities:
+          - entity: sensor.thuis_outdoor_temperature
+            name: Temperatuur
+            icon: mdi:thermometer
+          - entity: sensor.thuis_weather_condition
+            name: Weer
+            icon: mdi:weather-partly-cloudy
+          - entity: sensor.thuis_solar_percentage
+            name: Zonne-energie
+            icon: mdi:weather-sunny
+          - entity: sensor.ws2300_46_00_wind_average_speed
+            name: Wind
+            icon: mdi:weather-windy
+          - entity: sensor.ws2300_46_00_wind_gust
+            name: Windvlaag
+            icon: mdi:weather-windy-variant
+          - entity: sensor.ws2300_46_00_wind_direction
+            name: Richting
+            icon: mdi:compass
+
+      # --- Energie snel overzicht ---
+      - type: glance
+        title: Energie
+        entities:
+          - entity: sensor.p1_meter_vermogen
+            name: Huidig verbruik
+            icon: mdi:transmission-tower
+          - entity: sensor.haos_sbfspot_sma_ac_power
+            name: Zonnepanelen
+            icon: mdi:solar-power
+          - entity: sensor.haos_sbfspot_sma_energy_daily
+            name: Vandaag opgewekt
+            icon: mdi:solar-panel
+          - entity: sensor.p1_meter_energy_import
+            name: Totaal import
+            icon: mdi:home-import-outline
+          - entity: sensor.p1_meter_energie_export
+            name: Totaal export
+            icon: mdi:home-export-outline
+          - entity: sensor.gas_meter_gas
+            name: Gas
+            icon: mdi:fire
+
+      # --- Alle rolluiken in één rij ---
+      - type: entities
+        title: Rolluiken
+        entities:
+          - entity: cover.rfy_010203_1
+            name: Rolluik Alles
+          - entity: cover.rfy_010303_1
+            name: Rolluik Living
+          - entity: cover.rfy_010307_1
+            name: Rolluik Salon
+          - entity: cover.rfy_010305_1
+            name: Rolluik Keuken
+          - entity: cover.rfy_010302_1
+            name: Rolluik Schuifraam
+          - entity: cover.rfy_010301_1
+            name: Rolluik Bureau Friede
+          - entity: cover.rfy_010306_1
+            name: Rolluik Bureau Pieter
+
+      # --- Temperatuur alle kamers ---
+      - type: glance
+        title: Temperaturen
+        entities:
+          - entity: sensor.living_temperatuur
+            name: Living
+            icon: mdi:thermometer
+          - entity: sensor.salon_temperatuur
+            name: Salon
+            icon: mdi:thermometer
+          - entity: sensor.keuken_temperatuur
+            name: Keuken
+            icon: mdi:thermometer
+          - entity: sensor.inkom_temperatuur
+            name: Inkom
+            icon: mdi:thermometer
+          - entity: sensor.slaapkamer_temperature
+            name: Slaapkamer
+            icon: mdi:thermometer
+          - entity: sensor.badkamer_temperatuur
+            name: Badkamer
+            icon: mdi:thermometer
+          - entity: sensor.bureau_pieter_temperatuur
+            name: Bureau Pieter
+            icon: mdi:thermometer
+          - entity: sensor.bureau_friede_temperatuur
+            name: Bureau Friede
+            icon: mdi:thermometer
+          - entity: sensor.slaapkamer_mapa_temperatuur
+            name: Mapa
+            icon: mdi:thermometer
+          - entity: sensor.slaapkamer_jolien_temperatuur
+            name: Jolien
+            icon: mdi:thermometer
+          - entity: sensor.slaapkamer_jan_temperatuur
+            name: Jan
+            icon: mdi:thermometer
+          - entity: sensor.slaapkamer_stijn_temperatuur
+            name: Stijn
+            icon: mdi:thermometer
+
+  ##############################################
+  # VIEW 2 - VERWARMING
+  ##############################################
+  - title: Verwarming
+    path: verwarming
+    icon: mdi:radiator
+    cards:
+      - type: thermostat
+        entity: climate.living
+        name: Living
+
+      - type: thermostat
+        entity: climate.salon
+        name: Salon
+
+      - type: thermostat
+        entity: climate.keuken
+        name: Keuken
+
+      - type: thermostat
+        entity: climate.inkom
+        name: Inkom
+
+      - type: thermostat
+        entity: climate.slaapkamer
+        name: Slaapkamer
+
+      - type: thermostat
+        entity: climate.badkamer
+        name: Badkamer
+
+      - type: thermostat
+        entity: climate.bureau_friede
+        name: Bureau Friede
+
+      - type: thermostat
+        entity: climate.bureau_pieter
+        name: Bureau Pieter
+
+      - type: thermostat
+        entity: climate.slaapkamer_mapa
+        name: Slaapkamer Mapa
+
+      - type: thermostat
+        entity: climate.slaapkamer_jolien
+        name: Slaapkamer Jolien
+
+      - type: thermostat
+        entity: climate.slaapkamer_jan
+        name: Slaapkamer Jan
+
+      - type: thermostat
+        entity: climate.slaapkamer_stijn
+        name: Slaapkamer Stijn
+
+      - type: glance
+        title: Luchtvochtigheid
+        entities:
+          - entity: sensor.living_luchtvochtigheid
+            name: Living
+            icon: mdi:water-percent
+          - entity: sensor.salon_luchtvochtigheid
+            name: Salon
+            icon: mdi:water-percent
+          - entity: sensor.keuken_luchtvochtigheid
+            name: Keuken
+            icon: mdi:water-percent
+          - entity: sensor.inkom_luchtvochtigheid
+            name: Inkom
+            icon: mdi:water-percent
+          - entity: sensor.slaapkamer_humidity
+            name: Slaapkamer
+            icon: mdi:water-percent
+          - entity: sensor.badkamer_luchtvochtigheid
+            name: Badkamer
+            icon: mdi:water-percent
+          - entity: sensor.bureau_pieter_luchtvochtigheid
+            name: Bureau Pieter
+            icon: mdi:water-percent
+          - entity: sensor.bureau_friede_luchtvochtigheid
+            name: Bureau Friede
+            icon: mdi:water-percent
+
+  ##############################################
+  # VIEW 3 - ROLLUIKEN
+  ##############################################
+  - title: Rolluiken
+    path: rolluiken
+    icon: mdi:window-shutter
+    cards:
+      - type: entities
+        title: Alle rolluiken
+        entities:
+          - entity: cover.rfy_010203_1
+            name: Rolluik Alles
+          - type: divider
+          - entity: cover.rfy_010303_1
+            name: Rolluik Living
+          - entity: cover.rfy_010307_1
+            name: Rolluik Salon
+          - entity: cover.rfy_010305_1
+            name: Rolluik Keuken
+          - entity: cover.rfy_010302_1
+            name: Rolluik Schuifraam
+          - entity: cover.rfy_010301_1
+            name: Rolluik Bureau Friede
+          - entity: cover.rfy_010306_1
+            name: Rolluik Bureau Pieter
+
+  ##############################################
+  # VIEW 4 - ENERGIE
+  ##############################################
+  - title: Energie
+    path: energie
+    icon: mdi:lightning-bolt
+    cards:
+      # --- Huidige situatie ---
+      - type: glance
+        title: Huidig
+        entities:
+          - entity: sensor.p1_meter_vermogen
+            name: Verbruik
+            icon: mdi:transmission-tower
+          - entity: sensor.haos_sbfspot_sma_ac_power
+            name: Zonnepanelen
+            icon: mdi:solar-power
+          - entity: sensor.p1_meter_tarief
+            name: Tarief
+            icon: mdi:tag
+          - entity: sensor.electricity_maps_co2_intensiteit
+            name: CO2
+            icon: mdi:molecule-co2
+
+      # --- Import / Export ---
+      - type: glance
+        title: Import & Export
+        entities:
+          - entity: sensor.p1_meter_energie_import_tarief_1
+            name: Import T1
+            icon: mdi:home-import-outline
+          - entity: sensor.p1_meter_energie_import_tarief_2
+            name: Import T2
+            icon: mdi:home-import-outline
+          - entity: sensor.p1_meter_energie_export_tarief_1
+            name: Export T1
+            icon: mdi:home-export-outline
+          - entity: sensor.p1_meter_energie_export_tarief_2
+            name: Export T2
+            icon: mdi:home-export-outline
+
+      # --- Fasen ---
+      - type: glance
+        title: Fasen
+        entities:
+          - entity: sensor.p1_meter_vermogen_fase_1
+            name: Fase 1
+            icon: mdi:flash
+          - entity: sensor.p1_meter_vermogen_fase_2
+            name: Fase 2
+            icon: mdi:flash
+          - entity: sensor.p1_meter_vermogen_fase_3
+            name: Fase 3
+            icon: mdi:flash
+          - entity: sensor.p1_meter_spanning_fase_1
+            name: Spanning 1
+            icon: mdi:sine-wave
+          - entity: sensor.p1_meter_spanning_fase_2
+            name: Spanning 2
+            icon: mdi:sine-wave
+          - entity: sensor.p1_meter_spanning_fase_3
+            name: Spanning 3
+            icon: mdi:sine-wave
+
+      # --- Zonnepanelen detail ---
+      - type: glance
+        title: Zonnepanelen (SMA)
+        entities:
+          - entity: sensor.haos_sbfspot_sma_ac_power
+            name: AC Vermogen
+            icon: mdi:solar-power
+          - entity: sensor.haos_sbfspot_sma_energy_daily
+            name: Vandaag
+            icon: mdi:solar-panel
+          - entity: sensor.haos_sbfspot_sma_energy_lifetime
+            name: Totaal
+            icon: mdi:counter
+          - entity: sensor.haos_sbfspot_sma_inverter_status
+            name: Status
+            icon: mdi:information
+          - entity: sensor.haos_sbfspot_sma_inverter_running_temp
+            name: Temp
+            icon: mdi:thermometer
+          - entity: sensor.haos_sbfspot_sma_array1_pdc
+            name: String 1
+            icon: mdi:solar-panel-large
+          - entity: sensor.haos_sbfspot_sma_array2_pdc
+            name: String 2
+            icon: mdi:solar-panel-large
+
+      # --- Gas ---
+      - type: glance
+        title: Gas
+        entities:
+          - entity: sensor.gas_meter_gas
+            name: Gas totaal
+            icon: mdi:fire
+          - entity: sensor.gas_meter_gas_cost
+            name: Kost
+            icon: mdi:currency-eur
+
+      # --- Piekverbruik ---
+      - type: entities
+        title: Piekverbruik & Kosten
+        entities:
+          - entity: sensor.p1_meter_piekverbruik_huidige_maand
+            name: Piekverbruik maand
+          - entity: sensor.p1_meter_gemiddeld_verbruik
+            name: Gemiddeld verbruik
+          - entity: sensor.p1_meter_energy_import_cost
+            name: Kost import
+          - entity: sensor.p1_meter_energie_export_compensation
+            name: Compensatie export
+
+  ##############################################
+  # VIEW 5 - LAADPAAL
+  ##############################################
+  - title: Laadpaal
+    path: laadpaal
+    icon: mdi:ev-station
+    cards:
+      - type: glance
+        title: Status laadpaal
+        entities:
+          - entity: sensor.iti_lader_charging_status
+            name: Status
+            icon: mdi:ev-plug-type2
+          - entity: sensor.iti_lader_active_power_of_all_phases_combined
+            name: Vermogen
+            icon: mdi:flash
+          - entity: sensor.iti_lader_charged_energy_during_most_recent_charge
+            name: Geladen sessie
+            icon: mdi:battery-charging
+          - entity: sensor.iti_lader_total_charged_energy_overall
+            name: Totaal geladen
+            icon: mdi:counter
+          - entity: sensor.iti_lader_charge_time_of_the_most_recent_charge
+            name: Laadtijd
+            icon: mdi:timer
+
+      - type: entities
+        title: Instellingen laadpaal
+        entities:
+          - entity: number.iti_lader_user_set_charging_current
+            name: Laadstroom instelling
+          - entity: number.iti_lader_user_set_energy_limit
+            name: Energielimiet
+          - entity: number.iti_lader_user_set_maximum_charge_phases_count
+            name: Aantal fasen
+          - entity: switch.iti_lader_charge_pause_disabled_enabled
+            name: Laadpauze
+
+      - type: glance
+        title: Spanning & Stroom per fase
+        entities:
+          - entity: sensor.iti_lader_voltage_l1
+            name: Spanning L1
+            icon: mdi:sine-wave
+          - entity: sensor.iti_lader_current_l1
+            name: Stroom L1
+            icon: mdi:flash
+          - entity: sensor.iti_lader_voltage_l2
+            name: Spanning L2
+            icon: mdi:sine-wave
+          - entity: sensor.iti_lader_current_l2
+            name: Stroom L2
+            icon: mdi:flash
+          - entity: sensor.iti_lader_voltage_l3
+            name: Spanning L3
+            icon: mdi:sine-wave
+          - entity: sensor.iti_lader_current_l3
+            name: Stroom L3
+            icon: mdi:flash
+
+      - type: automation
+        entity: automation.zet_iti_lader_op_standby_bij_hoog_verbruik
+
+  ##############################################
+  # VIEW 6 - CAMERA'S
+  ##############################################
+  - title: Camera's
+    path: cameras
+    icon: mdi:cctv
+    cards:
+      - type: picture-entity
+        entity: camera.front_door_front_door_camera
+        name: Voordeur
+        show_state: false
+
+      - type: picture-entity
+        entity: camera.living_room_living_room_camera
+        name: Living Room
+        show_state: false
+
+      - type: picture-entity
+        entity: camera.backyard_backyard_achtertuin
+        name: Achtertuin
+        show_state: false
+
+      - type: glance
+        title: Beweging & Bel
+        entities:
+          - entity: event.front_door_front_door_camera_chime
+            name: Bel
+            icon: mdi:doorbell
+          - entity: event.front_door_front_door_camera_motion
+            name: Beweging voordeur
+            icon: mdi:motion-sensor
+          - entity: event.living_room_living_room_camera_motion
+            name: Beweging living
+            icon: mdi:motion-sensor
+          - entity: event.backyard_backyard_achtertuin_motion
+            name: Beweging achtertuin
+            icon: mdi:motion-sensor
+
+  ##############################################
+  # VIEW 7 - TELEFOONS
+  ##############################################
+  - title: Telefoons
+    path: telefoons
+    icon: mdi:cellphone
+    cards:
+      - type: glance
+        title: Pieter - Pixel 9
+        entities:
+          - entity: sensor.pixel_9_battery_level
+            name: Batterij
+            icon: mdi:battery
+          - entity: sensor.pixel_9_battery_state
+            name: Status
+            icon: mdi:battery-charging
+          - entity: binary_sensor.pixel_9_is_charging
+            name: Opladen
+            icon: mdi:power-plug
+          - entity: sensor.pixel_9_wi_fi_connection
+            name: Wi-Fi
+            icon: mdi:wifi
+          - entity: sensor.pixel_9_geocoded_location
+            name: Locatie
+            icon: mdi:map-marker
+
+      - type: glance
+        title: Friede - Samsung A54
+        entities:
+          - entity: sensor.sm_a546b_friede_battery_level
+            name: Batterij
+            icon: mdi:battery
+          - entity: sensor.sm_a546b_friede_battery_state
+            name: Status
+            icon: mdi:battery-charging
+          - entity: binary_sensor.sm_a546b_friede_is_charging
+            name: Opladen
+            icon: mdi:power-plug
+          - entity: sensor.sm_a546b_friede_wi_fi_connection
+            name: Wi-Fi
+            icon: mdi:wifi
+          - entity: sensor.sm_a546b_friede_geocoded_location
+            name: Locatie
+            icon: mdi:map-marker
+
+  ##############################################
+  # VIEW 8 - SYSTEEM
+  ##############################################
+  - title: Systeem
+    path: systeem
+    icon: mdi:cog
+    cards:
+      - type: glance
+        title: Home Assistant
+        entities:
+          - entity: sensor.home_assistant_core_cpu_percent
+            name: HA CPU
+            icon: mdi:cpu-64-bit
+          - entity: sensor.home_assistant_core_memory_percent
+            name: HA Geheugen
+            icon: mdi:memory
+          - entity: sensor.home_assistant_host_disk_used
+            name: Schijf gebruikt
+            icon: mdi:harddisk
+          - entity: sensor.home_assistant_host_disk_free
+            name: Schijf vrij
+            icon: mdi:harddisk
+          - entity: sensor.home_assistant_operating_system_version
+            name: OS versie
+            icon: mdi:information
+
+      - type: entities
+        title: Updates
+        entities:
+          - entity: update.home_assistant_core_update
+            name: HA Core
+          - entity: update.home_assistant_supervisor_update
+            name: HA Supervisor
+          - entity: update.home_assistant_operating_system_update
+            name: HA OS
+          - entity: update.hacs_update
+            name: HACS
+          - entity: update.mosquitto_broker_update
+            name: Mosquitto
+          - entity: update.mariadb_update
+            name: MariaDB
+          - entity: update.file_editor_update
+            name: File Editor
+          - entity: update.samba_share_update
+            name: Samba
+          - entity: update.terminal_ssh_update
+            name: Terminal SSH
+          - entity: update.haos_sbfspot_update
+            name: SBFspot
+          - entity: update.nrgkick_update
+            name: NRGKick
+          - entity: update.nest_legacy_update
+            name: Nest Legacy
+
+      - type: glance
+        title: Add-ons status
+        entities:
+          - entity: binary_sensor.mosquitto_broker_actief
+            name: Mosquitto
+            icon: mdi:message-broker
+          - entity: binary_sensor.mariadb_actief
+            name: MariaDB
+            icon: mdi:database
+          - entity: binary_sensor.haos_sbfspot_running
+            name: SBFspot
+            icon: mdi:solar-power
+          - entity: binary_sensor.terminal_ssh_actief
+            name: SSH
+            icon: mdi:console
+          - entity: binary_sensor.samba_share_actief
+            name: Samba
+            icon: mdi:folder-network
+          - entity: binary_sensor.file_editor_running
+            name: File Editor
+            icon: mdi:file-edit
+
+      - type: entities
+        title: Back-up
+        entities:
+          - entity: sensor.backup_backup_manager_state
+            name: Status
+          - entity: sensor.backup_last_successful_automatic_backup
+            name: Laatste back-up
+          - entity: sensor.backup_next_scheduled_automatic_backup
+            name: Volgende back-up
