@@ -275,28 +275,31 @@ views:
             name: Export T2
             icon: mdi:home-export-outline
 
-      # --- Fasen ---
-      - type: glance
+      # --- Fasen (vermogen) ---
+      - type: entities
         title: Fasen
         entities:
           - entity: sensor.p1_meter_vermogen_fase_1
-            name: Fase 1
+            name: Vermogen Fase 1
             icon: mdi:flash
           - entity: sensor.p1_meter_vermogen_fase_2
-            name: Fase 2
+            name: Vermogen Fase 2
             icon: mdi:flash
           - entity: sensor.p1_meter_vermogen_fase_3
-            name: Fase 3
+            name: Vermogen Fase 3
             icon: mdi:flash
-          - entity: sensor.p1_meter_spanning_fase_1
-            name: Spanning 1
-            icon: mdi:sine-wave
-          - entity: sensor.p1_meter_spanning_fase_2
-            name: Spanning 2
-            icon: mdi:sine-wave
-          - entity: sensor.p1_meter_spanning_fase_3
-            name: Spanning 3
-            icon: mdi:sine-wave
+          - entity: sensor.p1_meter_stroom_fase_1
+            name: Stroom Fase 1
+            icon: mdi:current-ac
+          - entity: sensor.p1_meter_stroom_fase_2
+            name: Stroom Fase 2
+            icon: mdi:current-ac
+          - entity: sensor.p1_meter_stroom_fase_3
+            name: Stroom Fase 3
+            icon: mdi:current-ac
+          - entity: sensor.p1_meter_stroom
+            name: Totale stroom
+            icon: mdi:current-ac
 
       # --- Zonnepanelen detail ---
       - type: glance
@@ -451,70 +454,95 @@ views:
 
   ##############################################
   # VIEW 7 - TELEFOONS
+  # Switched from glance to entities to avoid
+  # "Entity not found" for string/binary sensors
   ##############################################
   - title: Telefoons
     path: telefoons
     icon: mdi:cellphone
     cards:
-      - type: glance
+      - type: entities
         title: Pieter - Pixel 9
         entities:
           - entity: sensor.pixel_9_battery_level
             name: Batterij
             icon: mdi:battery
           - entity: sensor.pixel_9_battery_state
-            name: Status
+            name: Batterijstatus
             icon: mdi:battery-charging
           - entity: binary_sensor.pixel_9_is_charging
             name: Opladen
             icon: mdi:power-plug
           - entity: sensor.pixel_9_wi_fi_connection
-            name: Wi-Fi
+            name: Wi-Fi netwerk
             icon: mdi:wifi
           - entity: sensor.pixel_9_geocoded_location
             name: Locatie
             icon: mdi:map-marker
+          - entity: sensor.pixel_9_detected_activity
+            name: Activiteit
+            icon: mdi:run
+          - entity: sensor.pixel_9_last_used_app
+            name: Laatste app
+            icon: mdi:application
 
-      - type: glance
+      - type: entities
         title: Friede - Samsung A54
         entities:
           - entity: sensor.sm_a546b_friede_battery_level
             name: Batterij
             icon: mdi:battery
           - entity: sensor.sm_a546b_friede_battery_state
-            name: Status
+            name: Batterijstatus
             icon: mdi:battery-charging
           - entity: binary_sensor.sm_a546b_friede_is_charging
             name: Opladen
             icon: mdi:power-plug
           - entity: sensor.sm_a546b_friede_wi_fi_connection
-            name: Wi-Fi
+            name: Wi-Fi netwerk
             icon: mdi:wifi
           - entity: sensor.sm_a546b_friede_geocoded_location
             name: Locatie
             icon: mdi:map-marker
+          - entity: sensor.sm_a546b_friede_detected_activity
+            name: Activiteit
+            icon: mdi:run
+          - entity: sensor.sm_a546b_friede_last_used_app
+            name: Laatste app
+            icon: mdi:application
 
   ##############################################
   # VIEW 8 - SYSTEEM
+  # Switched glance cards to entities to fix
+  # "Entity not found" for hassio sensors
   ##############################################
   - title: Systeem
     path: systeem
     icon: mdi:cog
     cards:
-      - type: glance
+      - type: entities
         title: Home Assistant
         entities:
           - entity: sensor.home_assistant_core_cpu_percent
-            name: HA CPU
+            name: HA Core CPU
             icon: mdi:cpu-64-bit
           - entity: sensor.home_assistant_core_memory_percent
-            name: HA Geheugen
+            name: HA Core Geheugen
+            icon: mdi:memory
+          - entity: sensor.home_assistant_supervisor_cpu_percent
+            name: Supervisor CPU
+            icon: mdi:cpu-64-bit
+          - entity: sensor.home_assistant_supervisor_memory_percent
+            name: Supervisor Geheugen
             icon: mdi:memory
           - entity: sensor.home_assistant_host_disk_used
             name: Schijf gebruikt
             icon: mdi:harddisk
           - entity: sensor.home_assistant_host_disk_free
             name: Schijf vrij
+            icon: mdi:harddisk
+          - entity: sensor.home_assistant_host_disk_total
+            name: Schijf totaal
             icon: mdi:harddisk
           - entity: sensor.home_assistant_operating_system_version
             name: OS versie
@@ -548,7 +576,7 @@ views:
           - entity: update.nest_legacy_update
             name: Nest Legacy
 
-      - type: glance
+      - type: entities
         title: Add-ons status
         entities:
           - entity: binary_sensor.mosquitto_broker_actief
@@ -569,6 +597,12 @@ views:
           - entity: binary_sensor.file_editor_running
             name: File Editor
             icon: mdi:file-edit
+          - entity: binary_sensor.home_assistant_google_drive_backup_running
+            name: Google Drive Backup
+            icon: mdi:google-drive
+          - entity: binary_sensor.phpmyadmin_actief
+            name: phpMyAdmin
+            icon: mdi:database-eye
 
       - type: entities
         title: Back-up
@@ -579,3 +613,5 @@ views:
             name: Laatste back-up
           - entity: sensor.backup_next_scheduled_automatic_backup
             name: Volgende back-up
+          - entity: sensor.backup_last_attempted_automatic_backup
+            name: Laatste poging
