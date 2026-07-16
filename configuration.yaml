@@ -1,0 +1,26 @@
+
+# Loads default set of integrations. Do not remove.
+default_config:
+
+homeassistant:
+#auth_providers:
+#  - type: homeassistant
+#  - type: trusted_networks
+#    trusted_networks:
+#      - 10.0.10.30   # Loxone IP adres
+#      - 10.0.10.197  # IP adres stipup pc 20230515
+
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+

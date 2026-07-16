@@ -1,0 +1,910 @@
+sensor.home_assistant_core_cpu_percent | CPU-percentage |  | hassio | 
+sensor.home_assistant_core_memory_percent | Geheugenpercentage |  | hassio | 
+sensor.home_assistant_supervisor_cpu_percent | CPU-percentage |  | hassio | 
+sensor.home_assistant_supervisor_memory_percent | Geheugenpercentage |  | hassio | 
+sensor.home_assistant_host_os_agent_version | OS Agent-versie |  | hassio | 
+sensor.home_assistant_host_apparmor_version | AppArmor-versie |  | hassio | 
+sensor.home_assistant_host_disk_total | Schijfruimte totaal |  | hassio | 
+sensor.home_assistant_host_disk_used | Schijfruimte gebruikt |  | hassio | 
+sensor.home_assistant_host_disk_free | Schijfruimte vrij |  | hassio | 
+sensor.home_assistant_operating_system_version | Versie |  | hassio | 
+sensor.home_assistant_operating_system_newest_version | Nieuwste versie |  | hassio | 
+update.home_assistant_supervisor_update | Update |  | hassio | 
+update.home_assistant_core_update | Update |  | hassio | 
+update.home_assistant_operating_system_update | Update |  | hassio | 
+binary_sensor.rpi_power_status | RPi Power status |  | rpi_power | 
+sensor.sun_next_dawn | Volgende dageraad |  | sun | 
+sensor.sun_next_dusk | Volgende schemering |  | sun | 
+sensor.sun_next_midnight | Volgende middernacht |  | sun | 
+sensor.sun_next_noon | Volgende middag |  | sun | 
+sensor.sun_next_rising | Volgende opkomst |  | sun | 
+sensor.sun_next_setting | Volgende ondergang |  | sun | 
+sensor.sun_solar_elevation | Elevatie zon |  | sun | 
+sensor.sun_solar_azimuth | Azimut zon |  | sun | 
+person.pieter | Pieter |  | person | 
+switch.rfy_010306_1 | Rolluik Bureau Pieter |  | rfxtrx | 
+binary_sensor.rfy_010306_1 | Rolluik Bureau Pieter |  | rfxtrx | 
+cover.rfy_010306_1 | Rolluik Bureau Pieter |  | rfxtrx | 
+automation.rolluikupwebhook | RolluikPieterNrBoven |  | automation | 
+sensor.file_editor_versie | Versie |  | hassio | 
+sensor.file_editor_nieuwste_versie | Nieuwste versie |  | hassio | 
+sensor.file_editor_cpu_percentage | CPU-percentage |  | hassio | 
+sensor.file_editor_geheugenpercentage | Geheugenpercentage |  | hassio | 
+binary_sensor.file_editor_running | Actief |  | hassio | 
+update.file_editor_update | Update |  | hassio | 
+switch.rfy_010203_1 | Rolluik Alles |  | rfxtrx | 
+binary_sensor.rfy_010203_1 | Rolluik Alles |  | rfxtrx | 
+cover.rfy_010203_1 | Rolluik Alles |  | rfxtrx | 
+automation.rolluikallesnrbeneden | RolluikAllesNrBeneden |  | automation | 
+automation.rolluikallesstop | RolluikAllesStop |  | automation | 
+automation.rolluikallesnrboven | RolluikAllesNrBoven |  | automation | 
+automation.new_automation | RolluikPieterNrBeneden |  | automation | 
+automation.rolluikpieterstop | RolluikPieterStop |  | automation | 
+switch.rfy_010302_1 | Rolluik Schuifraam |  | rfxtrx | 
+binary_sensor.rfy_010302_1 | Rolluik Schuifraam |  | rfxtrx | 
+cover.rfy_010302_1 | Rolluik Schuifraam |  | rfxtrx | 
+automation.rolluikschuifraamnrbeneden | RolluikSchuifraamNrBeneden |  | automation | 
+automation.rolluikschuifraamstop | RolluikSchuifraamStop |  | automation | 
+automation.rolluikschuifraamnrboven | RolluikSchuifraamNrBoven |  | automation | 
+switch.rfy_010301_1 | Rolluik Bureau Friede |  | rfxtrx | 
+binary_sensor.rfy_010301_1 | Rolluik Bureau Friede |  | rfxtrx | 
+cover.rfy_010301_1 | Rolluik Bureau Friede |  | rfxtrx | 
+automation.rolluikfriedenrboven | RolluikFriedeNrBoven |  | automation | 
+automation.rolluikfriedestop | RolluikFriedeStop |  | automation | 
+automation.rolluikfriedenrbeneden | RolluikFriedeNrBeneden |  | automation | 
+switch.rfy_010303_1 | Rolluik Living |  | rfxtrx | 
+binary_sensor.rfy_010303_1 | Rolluik Living |  | rfxtrx | 
+cover.rfy_010303_1 | Rolluik Living |  | rfxtrx | 
+automation.rolluiklivingnrboven | RolluikLivingNrBoven |  | automation | 
+automation.rolluiklivingstop | RolluikLivingStop |  | automation | 
+automation.rolluiklivingnrbeneden | RolluikLivingNrBeneden |  | automation | 
+switch.rfy_010305_1 | Rolluik Keuken |  | rfxtrx | 
+binary_sensor.rfy_010305_1 | Rolluik Keuken |  | rfxtrx | 
+cover.rfy_010305_1 | Rolluik Keuken |  | rfxtrx | 
+automation.rolluikkeukenstop | RolluikKeukenStop |  | automation | 
+automation.rolluikkeukennrboven | RolluikKeukenNrBoven |  | automation | 
+automation.rolluikkeukennrbeneden | RolluikKeukenNrBeneden |  | automation | 
+switch.rfy_010307_1 | Rolluik Salon |  | rfxtrx | 
+binary_sensor.rfy_010307_1 | Rolluik Salon |  | rfxtrx | 
+cover.rfy_010307_1 | Rolluik Salon |  | rfxtrx | 
+automation.rolluiksalonstop | RolluikSalonStop |  | automation | 
+automation.rolluiksalonnrboven | RolluikSalonNrBoven |  | automation | 
+automation.rolluiksalonnrbeneden | RolluikSalonNrBeneden |  | automation | 
+binary_sensor.home_assistant_google_drive_backup_running | Actief |  | hassio | 
+sensor.home_assistant_google_drive_backup_versie | Versie |  | hassio | 
+sensor.home_assistant_google_drive_backup_nieuwste_versie | Nieuwste versie |  | hassio | 
+sensor.home_assistant_google_drive_backup_cpu_percentage | CPU-percentage |  | hassio | 
+sensor.home_assistant_google_drive_backup_geheugenpercentage | Geheugenpercentage |  | hassio | 
+update.home_assistant_google_drive_backup_update | Update |  | hassio | 
+button.tado_internet_bridge_ib2863547904_identify | tado Internet Bridge IB2863547904 Identify |  | homekit_controller | 
+sensor.tado_smart_thermostat_su1928086784_current_temperature | tado Smart Thermostat SU1928086784 Current Temperature |  | homekit_controller | 
+sensor.tado_smart_thermostat_su1928086784_current_humidity | tado Smart Thermostat SU1928086784 Current Humidity |  | homekit_controller | 
+climate.tado_smart_thermostat_su1928086784 | tado Smart Thermostat SU1928086784 |  | homekit_controller | 
+button.tado_smart_thermostat_su1928086784_identify | tado Smart Thermostat SU1928086784 Identify |  | homekit_controller | 
+binary_sensor.br3212789504_connection_state | Connectiestatus |  | tado | 
+binary_sensor.ib2863547904_connection_state | Connectiestatus |  | tado | 
+binary_sensor.su1928086784_battery_state | Batterij |  | tado | 
+binary_sensor.su1928086784_connection_state | Connectiestatus |  | tado | 
+binary_sensor.slaapkamer_power | Vermogen |  | tado | 
+binary_sensor.slaapkamer_link | Connectiviteit |  | tado | 
+binary_sensor.slaapkamer_overlay | Overlay |  | tado | 
+binary_sensor.slaapkamer_open_window | Raam |  | tado | 
+binary_sensor.slaapkamer_early_start | Vroege start |  | tado | 
+sensor.thuis_outdoor_temperature | Buitentemperatuur |  | tado | 
+sensor.thuis_solar_percentage | Zonne-energie percentage |  | tado | 
+sensor.thuis_weather_condition | Weersomstandigheden |  | tado | 
+sensor.slaapkamer_temperature | Temperatuur |  | tado | 
+sensor.slaapkamer_humidity | Luchtvochtigheid |  | tado | 
+sensor.slaapkamer_tado_mode | Tado mode |  | tado | 
+sensor.slaapkamer_heating | Verwarmen |  | tado | 
+climate.slaapkamer |  |  | tado | 
+automation.tadoopauto | TadoOpAuto |  | automation | 
+select.tado_smart_thermostat_su1928086784_temperature_display_units | tado Smart Thermostat SU1928086784 Temperature Display Units |  | homekit_controller | 
+sensor.thuis_tado_mode | Tado mode |  | tado | 
+sensor.thuis_geo_fencing_mode | Geo-fencing mode |  | tado | 
+sensor.thuis_automatisch_geo_fencing | Automatisch geo-fencing |  | tado | 
+sensor.visonic_codesecure_b2be9b_32_sensor_status | Sensorstatus |  | rfxtrx | 
+sensor.visonic_codesecure_b2be9b_32_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.visonic_codesecure_b2be9b_32_batterij | Batterij |  | rfxtrx | 
+climate.tado_smart_radiator_thermostat_va0474562048 | tado Smart Radiator Thermostat VA0474562048 |  | homekit_controller | 
+button.tado_smart_radiator_thermostat_va0474562048_identify | tado Smart Radiator Thermostat VA0474562048 Identify |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va0474562048_current_temperature | tado Smart Radiator Thermostat VA0474562048 Current Temperature |  | homekit_controller | 
+select.tado_smart_radiator_thermostat_va0474562048_temperature_display_units | tado Smart Radiator Thermostat VA0474562048 Temperature Display Units |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va0474562048_current_humidity | tado Smart Radiator Thermostat VA0474562048 Current Humidity |  | homekit_controller | 
+climate.tado_smart_radiator_thermostat_va0893861376 | tado Smart Radiator Thermostat VA0893861376 |  | homekit_controller | 
+button.tado_smart_radiator_thermostat_va0893861376_identify | tado Smart Radiator Thermostat VA0893861376 Identify |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va0893861376_current_temperature | tado Smart Radiator Thermostat VA0893861376 Current Temperature |  | homekit_controller | 
+select.tado_smart_radiator_thermostat_va0893861376_temperature_display_units | tado Smart Radiator Thermostat VA0893861376 Temperature Display Units |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va0893861376_current_humidity | tado Smart Radiator Thermostat VA0893861376 Current Humidity |  | homekit_controller | 
+sensor.thc238_268_thn132_thwr288_thrn122_thn122_aw129_131_89_02_temperatuur | Temperatuur |  | rfxtrx | 
+sensor.thc238_268_thn132_thwr288_thrn122_thn122_aw129_131_89_02_batterij | Batterij |  | rfxtrx | 
+sensor.thc238_268_thn132_thwr288_thrn122_thn122_aw129_131_89_02_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+binary_sensor.va0474562048_batterij | Batterij |  | tado | 
+binary_sensor.va0474562048_connectiestatus | Connectiestatus |  | tado | 
+binary_sensor.va0893861376_batterij | Batterij |  | tado | 
+binary_sensor.va0893861376_connectiestatus | Connectiestatus |  | tado | 
+binary_sensor.bureau_friede_vermogen | Vermogen |  | tado | 
+binary_sensor.bureau_friede_connectiviteit | Connectiviteit |  | tado | 
+binary_sensor.bureau_friede_overlay | Overlay |  | tado | 
+binary_sensor.bureau_friede_raam | Raam |  | tado | 
+binary_sensor.bureau_friede_vroege_start | Vroege start |  | tado | 
+binary_sensor.bureau_pieter_vermogen | Vermogen |  | tado | 
+binary_sensor.bureau_pieter_connectiviteit | Connectiviteit |  | tado | 
+binary_sensor.bureau_pieter_overlay | Overlay |  | tado | 
+binary_sensor.bureau_pieter_raam | Raam |  | tado | 
+binary_sensor.bureau_pieter_vroege_start | Vroege start |  | tado | 
+sensor.bureau_friede_temperatuur | Temperatuur |  | tado | 
+sensor.bureau_friede_luchtvochtigheid | Luchtvochtigheid |  | tado | 
+sensor.bureau_friede_tado_mode | Tado mode |  | tado | 
+sensor.bureau_friede_verwarmen | Verwarmen |  | tado | 
+sensor.bureau_pieter_temperatuur | Temperatuur |  | tado | 
+sensor.bureau_pieter_luchtvochtigheid | Luchtvochtigheid |  | tado | 
+sensor.bureau_pieter_tado_mode | Tado mode |  | tado | 
+sensor.bureau_pieter_verwarmen | Verwarmen |  | tado | 
+climate.bureau_friede |  |  | tado | 
+climate.bureau_pieter |  |  | tado | 
+sensor.visonic_codesecure_ca74d8_32_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.visonic_codesecure_ca74d8_32_batterij | Batterij |  | rfxtrx | 
+sensor.visonic_codesecure_ca74d8_32_sensor_status | Sensorstatus |  | rfxtrx | 
+climate.tado_smart_radiator_thermostat_va1008294400 | tado Smart Radiator Thermostat VA1008294400 |  | homekit_controller | 
+button.tado_smart_radiator_thermostat_va1008294400_identify | tado Smart Radiator Thermostat VA1008294400 Identify |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va1008294400_current_temperature | tado Smart Radiator Thermostat VA1008294400 Current Temperature |  | homekit_controller | 
+select.tado_smart_radiator_thermostat_va1008294400_temperature_display_units | tado Smart Radiator Thermostat VA1008294400 Temperature Display Units |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va1008294400_current_humidity | tado Smart Radiator Thermostat VA1008294400 Current Humidity |  | homekit_controller | 
+climate.tado_smart_radiator_thermostat_va0335567360 | tado Smart Radiator Thermostat VA0335567360 |  | homekit_controller | 
+button.tado_smart_radiator_thermostat_va0335567360_identify | tado Smart Radiator Thermostat VA0335567360 Identify |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va0335567360_current_temperature | tado Smart Radiator Thermostat VA0335567360 Current Temperature |  | homekit_controller | 
+select.tado_smart_radiator_thermostat_va0335567360_temperature_display_units | tado Smart Radiator Thermostat VA0335567360 Temperature Display Units |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va0335567360_current_humidity | tado Smart Radiator Thermostat VA0335567360 Current Humidity |  | homekit_controller | 
+climate.tado_smart_radiator_thermostat_va1863932416 | tado Smart Radiator Thermostat VA1863932416 |  | homekit_controller | 
+button.tado_smart_radiator_thermostat_va1863932416_identify | tado Smart Radiator Thermostat VA1863932416 Identify |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va1863932416_current_temperature | tado Smart Radiator Thermostat VA1863932416 Current Temperature |  | homekit_controller | 
+select.tado_smart_radiator_thermostat_va1863932416_temperature_display_units | tado Smart Radiator Thermostat VA1863932416 Temperature Display Units |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va1863932416_current_humidity | tado Smart Radiator Thermostat VA1863932416 Current Humidity |  | homekit_controller | 
+climate.tado_smart_radiator_thermostat_va1009736192 | tado Smart Radiator Thermostat VA1009736192 |  | homekit_controller | 
+button.tado_smart_radiator_thermostat_va1009736192_identify | tado Smart Radiator Thermostat VA1009736192 Identify |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va1009736192_current_temperature | tado Smart Radiator Thermostat VA1009736192 Current Temperature |  | homekit_controller | 
+select.tado_smart_radiator_thermostat_va1009736192_temperature_display_units | tado Smart Radiator Thermostat VA1009736192 Temperature Display Units |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va1009736192_current_humidity | tado Smart Radiator Thermostat VA1009736192 Current Humidity |  | homekit_controller | 
+sensor.visonic_codesecure_95e601_32_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.visonic_codesecure_95e601_32_batterij | Batterij |  | rfxtrx | 
+sensor.visonic_codesecure_95e601_32_sensor_status | Sensorstatus |  | rfxtrx | 
+binary_sensor.va0335567360_batterij | Batterij |  | tado | 
+binary_sensor.va0335567360_connectiestatus | Connectiestatus |  | tado | 
+binary_sensor.va1008294400_batterij | Batterij |  | tado | 
+binary_sensor.va1008294400_connectiestatus | Connectiestatus |  | tado | 
+binary_sensor.va1009736192_batterij | Batterij |  | tado | 
+binary_sensor.va1009736192_connectiestatus | Connectiestatus |  | tado | 
+binary_sensor.va1863932416_batterij | Batterij |  | tado | 
+binary_sensor.va1863932416_connectiestatus | Connectiestatus |  | tado | 
+binary_sensor.living_vermogen | Vermogen |  | tado | 
+binary_sensor.living_connectiviteit | Connectiviteit |  | tado | 
+binary_sensor.living_overlay | Overlay |  | tado | 
+binary_sensor.living_raam | Raam |  | tado | 
+binary_sensor.living_vroege_start | Vroege start |  | tado | 
+binary_sensor.keuken_vermogen | Vermogen |  | tado | 
+binary_sensor.keuken_connectiviteit | Connectiviteit |  | tado | 
+binary_sensor.keuken_overlay | Overlay |  | tado | 
+binary_sensor.keuken_raam | Raam |  | tado | 
+binary_sensor.keuken_vroege_start | Vroege start |  | tado | 
+binary_sensor.salon_vermogen | Vermogen |  | tado | 
+binary_sensor.salon_connectiviteit | Connectiviteit |  | tado | 
+binary_sensor.salon_overlay | Overlay |  | tado | 
+binary_sensor.salon_raam | Raam |  | tado | 
+binary_sensor.salon_vroege_start | Vroege start |  | tado | 
+sensor.living_temperatuur | Temperatuur |  | tado | 
+sensor.living_luchtvochtigheid | Luchtvochtigheid |  | tado | 
+sensor.living_tado_mode | Tado mode |  | tado | 
+sensor.living_verwarmen | Verwarmen |  | tado | 
+sensor.keuken_temperatuur | Temperatuur |  | tado | 
+sensor.keuken_luchtvochtigheid | Luchtvochtigheid |  | tado | 
+sensor.keuken_tado_mode | Tado mode |  | tado | 
+sensor.keuken_verwarmen | Verwarmen |  | tado | 
+sensor.salon_temperatuur | Temperatuur |  | tado | 
+sensor.salon_luchtvochtigheid | Luchtvochtigheid |  | tado | 
+sensor.salon_tado_mode | Tado mode |  | tado | 
+sensor.salon_verwarmen | Verwarmen |  | tado | 
+climate.living |  |  | tado | 
+climate.keuken |  |  | tado | 
+climate.salon |  |  | tado | 
+device_tracker.telefoon_pieter | telefoon pieter |  | tado | 
+device_tracker.telefoon_friede | Telefoon Friede |  | tado | 
+sensor.visonic_codesecure_a0c09b_32_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.visonic_codesecure_a0c09b_32_sensor_status | Sensorstatus |  | rfxtrx | 
+sensor.visonic_codesecure_a0c09b_32_batterij | Batterij |  | rfxtrx | 
+sensor.visonic_codesecure_95e605_32_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.visonic_codesecure_95e605_32_sensor_status | Sensorstatus |  | rfxtrx | 
+sensor.visonic_codesecure_95e605_32_batterij | Batterij |  | rfxtrx | 
+climate.tado_smart_radiator_thermostat_va1875317504 | tado Smart Radiator Thermostat VA1875317504 |  | homekit_controller | 
+button.tado_smart_radiator_thermostat_va1875317504_identify | tado Smart Radiator Thermostat VA1875317504 Identify |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va1875317504_current_temperature | tado Smart Radiator Thermostat VA1875317504 Current Temperature |  | homekit_controller | 
+select.tado_smart_radiator_thermostat_va1875317504_temperature_display_units | tado Smart Radiator Thermostat VA1875317504 Temperature Display Units |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va1875317504_current_humidity | tado Smart Radiator Thermostat VA1875317504 Current Humidity |  | homekit_controller | 
+climate.tado_smart_radiator_thermostat_va2801014016 | tado Smart Radiator Thermostat VA2801014016 |  | homekit_controller | 
+button.tado_smart_radiator_thermostat_va2801014016_identify | tado Smart Radiator Thermostat VA2801014016 Identify |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va2801014016_current_temperature | tado Smart Radiator Thermostat VA2801014016 Current Temperature |  | homekit_controller | 
+select.tado_smart_radiator_thermostat_va2801014016_temperature_display_units | tado Smart Radiator Thermostat VA2801014016 Temperature Display Units |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va2801014016_current_humidity | tado Smart Radiator Thermostat VA2801014016 Current Humidity |  | homekit_controller | 
+climate.tado_smart_radiator_thermostat_va2734626048 | tado Smart Radiator Thermostat VA2734626048 |  | homekit_controller | 
+button.tado_smart_radiator_thermostat_va2734626048_identify | tado Smart Radiator Thermostat VA2734626048 Identify |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va2734626048_current_temperature | tado Smart Radiator Thermostat VA2734626048 Current Temperature |  | homekit_controller | 
+select.tado_smart_radiator_thermostat_va2734626048_temperature_display_units | tado Smart Radiator Thermostat VA2734626048 Temperature Display Units |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va2734626048_current_humidity | tado Smart Radiator Thermostat VA2734626048 Current Humidity |  | homekit_controller | 
+climate.tado_smart_radiator_thermostat_va2446595328 | tado Smart Radiator Thermostat VA2446595328 |  | homekit_controller | 
+button.tado_smart_radiator_thermostat_va2446595328_identify | tado Smart Radiator Thermostat VA2446595328 Identify |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va2446595328_current_temperature | tado Smart Radiator Thermostat VA2446595328 Current Temperature |  | homekit_controller | 
+select.tado_smart_radiator_thermostat_va2446595328_temperature_display_units | tado Smart Radiator Thermostat VA2446595328 Temperature Display Units |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va2446595328_current_humidity | tado Smart Radiator Thermostat VA2446595328 Current Humidity |  | homekit_controller | 
+climate.tado_smart_radiator_thermostat_va1628902912 | tado Smart Radiator Thermostat VA1628902912 |  | homekit_controller | 
+button.tado_smart_radiator_thermostat_va1628902912_identify | tado Smart Radiator Thermostat VA1628902912 Identify |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va1628902912_current_temperature | tado Smart Radiator Thermostat VA1628902912 Current Temperature |  | homekit_controller | 
+select.tado_smart_radiator_thermostat_va1628902912_temperature_display_units | tado Smart Radiator Thermostat VA1628902912 Temperature Display Units |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va1628902912_current_humidity | tado Smart Radiator Thermostat VA1628902912 Current Humidity |  | homekit_controller | 
+climate.tado_smart_radiator_thermostat_va4240970496 | tado Smart Radiator Thermostat VA4240970496 |  | homekit_controller | 
+button.tado_smart_radiator_thermostat_va4240970496_identify | tado Smart Radiator Thermostat VA4240970496 Identify |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va4240970496_current_temperature | tado Smart Radiator Thermostat VA4240970496 Current Temperature |  | homekit_controller | 
+select.tado_smart_radiator_thermostat_va4240970496_temperature_display_units | tado Smart Radiator Thermostat VA4240970496 Temperature Display Units |  | homekit_controller | 
+sensor.tado_smart_radiator_thermostat_va4240970496_current_humidity | tado Smart Radiator Thermostat VA4240970496 Current Humidity |  | homekit_controller | 
+binary_sensor.va1628902912_batterij | Batterij |  | tado | 
+binary_sensor.va1628902912_connectiestatus | Connectiestatus |  | tado | 
+binary_sensor.va1875317504_batterij | Batterij |  | tado | 
+binary_sensor.va1875317504_connectiestatus | Connectiestatus |  | tado | 
+binary_sensor.va2446595328_batterij | Batterij |  | tado | 
+binary_sensor.va2446595328_connectiestatus | Connectiestatus |  | tado | 
+binary_sensor.va2734626048_batterij | Batterij |  | tado | 
+binary_sensor.va2734626048_connectiestatus | Connectiestatus |  | tado | 
+binary_sensor.va2801014016_batterij | Batterij |  | tado | 
+binary_sensor.va2801014016_connectiestatus | Connectiestatus |  | tado | 
+binary_sensor.va4240970496_batterij | Batterij |  | tado | 
+binary_sensor.va4240970496_connectiestatus | Connectiestatus |  | tado | 
+binary_sensor.slaapkamer_mapa_vermogen | Vermogen |  | tado | 
+binary_sensor.slaapkamer_mapa_connectiviteit | Connectiviteit |  | tado | 
+binary_sensor.slaapkamer_mapa_overlay | Overlay |  | tado | 
+binary_sensor.slaapkamer_mapa_raam | Raam |  | tado | 
+binary_sensor.slaapkamer_mapa_vroege_start | Vroege start |  | tado | 
+binary_sensor.slaapkamer_jolien_vermogen | Vermogen |  | tado | 
+binary_sensor.slaapkamer_jolien_connectiviteit | Connectiviteit |  | tado | 
+binary_sensor.slaapkamer_jolien_overlay | Overlay |  | tado | 
+binary_sensor.slaapkamer_jolien_raam | Raam |  | tado | 
+binary_sensor.slaapkamer_jolien_vroege_start | Vroege start |  | tado | 
+binary_sensor.badkamer_vermogen | Vermogen |  | tado | 
+binary_sensor.badkamer_connectiviteit | Connectiviteit |  | tado | 
+binary_sensor.badkamer_overlay | Overlay |  | tado | 
+binary_sensor.badkamer_raam | Raam |  | tado | 
+binary_sensor.badkamer_vroege_start | Vroege start |  | tado | 
+binary_sensor.slaapkamer_jan_vermogen | Vermogen |  | tado | 
+binary_sensor.slaapkamer_jan_connectiviteit | Connectiviteit |  | tado | 
+binary_sensor.slaapkamer_jan_overlay | Overlay |  | tado | 
+binary_sensor.slaapkamer_jan_raam | Raam |  | tado | 
+binary_sensor.slaapkamer_jan_vroege_start | Vroege start |  | tado | 
+binary_sensor.slaapkamer_stijn_vermogen | Vermogen |  | tado | 
+binary_sensor.slaapkamer_stijn_connectiviteit | Connectiviteit |  | tado | 
+binary_sensor.slaapkamer_stijn_overlay | Overlay |  | tado | 
+binary_sensor.slaapkamer_stijn_raam | Raam |  | tado | 
+binary_sensor.slaapkamer_stijn_vroege_start | Vroege start |  | tado | 
+binary_sensor.inkom_vermogen | Vermogen |  | tado | 
+binary_sensor.inkom_connectiviteit | Connectiviteit |  | tado | 
+binary_sensor.inkom_overlay | Overlay |  | tado | 
+binary_sensor.inkom_raam | Raam |  | tado | 
+binary_sensor.inkom_vroege_start | Vroege start |  | tado | 
+sensor.slaapkamer_mapa_temperatuur | Temperatuur |  | tado | 
+sensor.slaapkamer_mapa_luchtvochtigheid | Luchtvochtigheid |  | tado | 
+sensor.slaapkamer_mapa_tado_mode | Tado mode |  | tado | 
+sensor.slaapkamer_mapa_verwarmen | Verwarmen |  | tado | 
+sensor.slaapkamer_jolien_temperatuur | Temperatuur |  | tado | 
+sensor.slaapkamer_jolien_luchtvochtigheid | Luchtvochtigheid |  | tado | 
+sensor.slaapkamer_jolien_tado_mode | Tado mode |  | tado | 
+sensor.slaapkamer_jolien_verwarmen | Verwarmen |  | tado | 
+sensor.badkamer_temperatuur | Temperatuur |  | tado | 
+sensor.badkamer_luchtvochtigheid | Luchtvochtigheid |  | tado | 
+sensor.badkamer_tado_mode | Tado mode |  | tado | 
+sensor.badkamer_verwarmen | Verwarmen |  | tado | 
+sensor.slaapkamer_jan_temperatuur | Temperatuur |  | tado | 
+sensor.slaapkamer_jan_luchtvochtigheid | Luchtvochtigheid |  | tado | 
+sensor.slaapkamer_jan_tado_mode | Tado mode |  | tado | 
+sensor.slaapkamer_jan_verwarmen | Verwarmen |  | tado | 
+sensor.slaapkamer_stijn_temperatuur | Temperatuur |  | tado | 
+sensor.slaapkamer_stijn_luchtvochtigheid | Luchtvochtigheid |  | tado | 
+sensor.slaapkamer_stijn_tado_mode | Tado mode |  | tado | 
+sensor.slaapkamer_stijn_verwarmen | Verwarmen |  | tado | 
+sensor.inkom_temperatuur | Temperatuur |  | tado | 
+sensor.inkom_luchtvochtigheid | Luchtvochtigheid |  | tado | 
+sensor.inkom_tado_mode | Tado mode |  | tado | 
+sensor.inkom_verwarmen | Verwarmen |  | tado | 
+climate.slaapkamer_mapa |  |  | tado | 
+climate.slaapkamer_jolien |  |  | tado | 
+climate.badkamer |  |  | tado | 
+climate.slaapkamer_jan |  |  | tado | 
+climate.slaapkamer_stijn |  |  | tado | 
+climate.inkom |  |  | tado | 
+sensor.ws2300_46_00_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.ws2300_46_00_wind_average_speed | Gemiddelde windsnelheid |  | rfxtrx | 
+sensor.ws2300_46_00_wind_gust | Windvlaag |  | rfxtrx | 
+sensor.ws2300_46_00_batterij | Batterij |  | rfxtrx | 
+sensor.ws2300_46_00_wind_direction | Windrichting |  | rfxtrx | 
+event.rolluik_bureau_pieter |  |  | rfxtrx | 
+event.rolluik_alles |  |  | rfxtrx | 
+event.rolluik_schuifraam |  |  | rfxtrx | 
+event.rolluik_bureau_friede |  |  | rfxtrx | 
+event.rolluik_living |  |  | rfxtrx | 
+event.rolluik_keuken |  |  | rfxtrx | 
+event.rolluik_salon |  |  | rfxtrx | 
+event.visonic_codesecure_b2be9b_32 |  |  | rfxtrx | 
+event.visonic_codesecure_ca74d8_32 |  |  | rfxtrx | 
+event.visonic_codesecure_95e601_32 |  |  | rfxtrx | 
+event.visonic_codesecure_a0c09b_32 |  |  | rfxtrx | 
+event.visonic_codesecure_95e605_32 |  |  | rfxtrx | 
+event.visonic_codesecure_ca74d6_32 |  |  | rfxtrx | 
+sensor.visonic_codesecure_ca74d6_32_sensor_status | Sensorstatus |  | rfxtrx | 
+sensor.visonic_codesecure_ca74d6_32_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.visonic_codesecure_ca74d6_32_batterij | Batterij |  | rfxtrx | 
+binary_sensor.select_plus_00_c0 |  |  | rfxtrx | 
+event.select_plus_00_c0 |  |  | rfxtrx | 
+sensor.select_plus_00_c0_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.select_plus_00_c0_sound | Geluid |  | rfxtrx | 
+siren.select_plus_00_c0 |  |  | rfxtrx | 
+binary_sensor.select_plus_00_e0 |  |  | rfxtrx | 
+event.select_plus_00_e0 |  |  | rfxtrx | 
+sensor.select_plus_00_e0_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.select_plus_00_e0_sound | Geluid |  | rfxtrx | 
+siren.select_plus_00_e0 |  |  | rfxtrx | 
+event.visonic_codesecure_94e605_32 |  |  | rfxtrx | 
+sensor.visonic_codesecure_94e605_32_batterij | Batterij |  | rfxtrx | 
+sensor.visonic_codesecure_94e605_32_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.visonic_codesecure_94e605_32_sensor_status | Sensorstatus |  | rfxtrx | 
+sensor.tfa_30_3133_db_01_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.tfa_30_3133_db_01_batterij | Batterij |  | rfxtrx | 
+sensor.tfa_30_3133_db_01_temperatuur | Temperatuur |  | rfxtrx | 
+binary_sensor.ac_3e11b72_16 |  |  | rfxtrx | 
+event.ac_3e11b72_16 |  |  | rfxtrx | 
+sensor.ac_3e11b72_16_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+switch.ac_3e11b72_16 |  |  | rfxtrx | 
+event.visonic_codesecure_95e6fd_32 |  |  | rfxtrx | 
+sensor.visonic_codesecure_95e6fd_32_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.visonic_codesecure_95e6fd_32_batterij | Batterij |  | rfxtrx | 
+sensor.visonic_codesecure_95e6fd_32_sensor_status | Sensorstatus |  | rfxtrx | 
+device_tracker.telefoon_pieter_2 | telefoon pieter |  | tado | 
+binary_sensor.byron_sx_00_b2 |  |  | rfxtrx | 
+event.byron_sx_00_b2 |  |  | rfxtrx | 
+sensor.byron_sx_00_b2_geluid | Geluid |  | rfxtrx | 
+sensor.byron_sx_00_b2_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+siren.byron_sx_00_b2 |  |  | rfxtrx | 
+binary_sensor.byron_sx_00_36 |  |  | rfxtrx | 
+event.byron_sx_00_36 |  |  | rfxtrx | 
+sensor.byron_sx_00_36_geluid | Geluid |  | rfxtrx | 
+sensor.byron_sx_00_36_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+siren.byron_sx_00_36 |  |  | rfxtrx | 
+device_tracker.pixel_9 | Pixel 9 |  | mobile_app | 
+sensor.tfa_30_3133_00_01_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.tfa_30_3133_00_01_batterij | Batterij |  | rfxtrx | 
+sensor.tfa_30_3133_00_01_temperatuur | Temperatuur |  | rfxtrx | 
+sensor.tfa_30_3133_b0_01_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.tfa_30_3133_b0_01_batterij | Batterij |  | rfxtrx | 
+sensor.tfa_30_3133_b0_01_temperatuur | Temperatuur |  | rfxtrx | 
+switch.bureau_friede_kinderslot | Kinderslot |  | tado | 
+switch.bureau_pieter_kinderslot | Kinderslot |  | tado | 
+switch.living_kinderslot | Kinderslot |  | tado | 
+switch.keuken_kinderslot | Kinderslot |  | tado | 
+switch.salon_kinderslot | Kinderslot |  | tado | 
+switch.slaapkamer_mapa_kinderslot | Kinderslot |  | tado | 
+switch.slaapkamer_jolien_kinderslot | Kinderslot |  | tado | 
+switch.badkamer_kinderslot | Kinderslot |  | tado | 
+switch.slaapkamer_jan_kinderslot | Kinderslot |  | tado | 
+switch.slaapkamer_stijn_kinderslot | Kinderslot |  | tado | 
+switch.inkom_kinderslot | Kinderslot |  | tado | 
+sensor.rubicson_d8_01_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+sensor.rubicson_d8_01_vochtigheidsstatus | Vochtigheidsstatus |  | rfxtrx | 
+sensor.rubicson_d8_01_temperatuur | Temperatuur |  | rfxtrx | 
+sensor.rubicson_d8_01_batterij | Batterij |  | rfxtrx | 
+sensor.rubicson_d8_01_luchtvochtigheid | Luchtvochtigheid |  | rfxtrx | 
+sensor.backup_backup_manager_state | Status Back-up Manager |  | backup | 
+sensor.backup_next_scheduled_automatic_backup | Volgende geplande automatische back-up |  | backup | 
+sensor.backup_last_successful_automatic_backup | Laatste succesvolle automatische back-up |  | backup | 
+sensor.pixel_9_detected_activity | Pixel 9 Detected activity |  | mobile_app | enum
+sensor.pixel_9_sleep_confidence | Pixel 9 Sleep confidence |  | mobile_app | 
+sensor.pixel_9_sleep_segment | Pixel 9 Sleep segment |  | mobile_app | duration
+binary_sensor.pixel_9_android_auto | Pixel 9 Android Auto |  | mobile_app | connectivity
+sensor.pixel_9_os_version | Pixel 9 OS version |  | mobile_app | 
+sensor.pixel_9_security_patch | Pixel 9 Security patch |  | mobile_app | 
+sensor.pixel_9_current_version | Pixel 9 Current version |  | mobile_app | 
+sensor.pixel_9_app_rx_gb | Pixel 9 App Rx GB |  | mobile_app | 
+sensor.pixel_9_app_tx_gb | Pixel 9 App Tx GB |  | mobile_app | 
+sensor.pixel_9_app_memory | Pixel 9 App memory |  | mobile_app | 
+binary_sensor.pixel_9_app_inactive | Pixel 9 App inactive |  | mobile_app | 
+sensor.pixel_9_app_standby_bucket | Pixel 9 App standby bucket |  | mobile_app | enum
+sensor.pixel_9_app_importance | Pixel 9 App importance |  | mobile_app | enum
+sensor.pixel_9_ringer_mode | Pixel 9 Ringer mode |  | mobile_app | enum
+sensor.pixel_9_audio_mode | Pixel 9 Audio mode |  | mobile_app | enum
+binary_sensor.pixel_9_headphones | Pixel 9 Headphones |  | mobile_app | 
+binary_sensor.pixel_9_mic_muted | Pixel 9 Mic muted |  | mobile_app | 
+binary_sensor.pixel_9_speakerphone | Pixel 9 Speakerphone |  | mobile_app | 
+binary_sensor.pixel_9_music_active | Pixel 9 Music active |  | mobile_app | 
+sensor.pixel_9_volume_level_alarm | Pixel 9 Volume level alarm |  | mobile_app | 
+sensor.pixel_9_volume_level_call | Pixel 9 Volume level call |  | mobile_app | 
+sensor.pixel_9_volume_level_music | Pixel 9 Volume level music |  | mobile_app | 
+sensor.pixel_9_volume_level_ringer | Pixel 9 Volume level ringer |  | mobile_app | 
+sensor.pixel_9_volume_level_notification | Pixel 9 Volume level notification |  | mobile_app | 
+sensor.pixel_9_volume_level_system | Pixel 9 Volume level system |  | mobile_app | 
+sensor.pixel_9_volume_level_dtmf | Pixel 9 Volume level DTMF |  | mobile_app | 
+sensor.pixel_9_volume_level_accessibility | Pixel 9 Volume level accessibility |  | mobile_app | 
+sensor.pixel_9_battery_level | Pixel 9 Battery level |  | mobile_app | battery
+sensor.pixel_9_battery_state | Pixel 9 Battery state |  | mobile_app | enum
+binary_sensor.pixel_9_is_charging | Pixel 9 Is charging |  | mobile_app | plug
+sensor.pixel_9_charger_type | Pixel 9 Charger type |  | mobile_app | enum
+sensor.pixel_9_battery_health | Pixel 9 Battery health |  | mobile_app | enum
+sensor.pixel_9_battery_temperature | Pixel 9 Battery temperature |  | mobile_app | temperature
+sensor.pixel_9_battery_power | Pixel 9 Battery power |  | mobile_app | power
+sensor.pixel_9_remaining_charge_time | Pixel 9 Remaining charge time |  | mobile_app | duration
+sensor.pixel_9_battery_cycle_count | Pixel 9 Battery cycle count |  | mobile_app | 
+sensor.pixel_9_bluetooth_connection | Pixel 9 Bluetooth connection |  | mobile_app | 
+binary_sensor.pixel_9_bluetooth_state | Pixel 9 Bluetooth state |  | mobile_app | 
+sensor.pixel_9_ble_transmitter | Pixel 9 BLE transmitter |  | mobile_app | enum
+sensor.pixel_9_beacon_monitor | Pixel 9 Beacon monitor |  | mobile_app | enum
+sensor.pixel_9_car_battery | Pixel 9 Car battery |  | mobile_app | battery
+sensor.pixel_9_car_name | Pixel 9 Car name |  | mobile_app | 
+sensor.pixel_9_car_charging_status | Pixel 9 Car charging status |  | mobile_app | plug
+sensor.pixel_9_car_ev_connector_type | Pixel 9 Car EV connector type |  | mobile_app | enum
+sensor.pixel_9_car_fuel | Pixel 9 Car fuel |  | mobile_app | battery
+sensor.pixel_9_car_fuel_type | Pixel 9 Car fuel type |  | mobile_app | enum
+sensor.pixel_9_car_odometer | Pixel 9 Car odometer |  | mobile_app | distance
+sensor.pixel_9_car_speed | Pixel 9 Car speed |  | mobile_app | speed
+sensor.pixel_9_car_range_remaining | Pixel 9 Car range remaining |  | mobile_app | distance
+sensor.pixel_9_screen_brightness | Pixel 9 Screen brightness |  | mobile_app | 
+sensor.pixel_9_screen_off_timeout | Pixel 9 Screen off timeout |  | mobile_app | duration
+sensor.pixel_9_screen_orientation | Pixel 9 Screen orientation |  | mobile_app | 
+sensor.pixel_9_screen_rotation | Pixel 9 Screen rotation |  | mobile_app | 
+sensor.pixel_9_do_not_disturb_sensor | Pixel 9 Do Not Disturb sensor |  | mobile_app | enum
+sensor.pixel_9_accent_color | Pixel 9 Accent color |  | mobile_app | 
+binary_sensor.pixel_9_work_profile | Pixel 9 Work profile |  | mobile_app | 
+sensor.pixel_9_geocoded_location | Pixel 9 Geocoded location |  | mobile_app | 
+sensor.pixel_9_active_calories_burned | Pixel 9 Active calories burned |  | mobile_app | energy
+sensor.pixel_9_blood_glucose | Pixel 9 Blood glucose |  | mobile_app | blood_glucose_concentration
+sensor.pixel_9_body_fat | Pixel 9 Body fat |  | mobile_app | 
+sensor.pixel_9_diastolic_blood_pressure | Pixel 9 Diastolic blood pressure |  | mobile_app | pressure
+sensor.pixel_9_daily_distance | Pixel 9 Daily distance |  | mobile_app | distance
+sensor.pixel_9_daily_elevation_gained | Pixel 9 Daily elevation gained |  | mobile_app | distance
+sensor.pixel_9_daily_floors | Pixel 9 Daily floors |  | mobile_app | 
+sensor.pixel_9_heart_rate | Pixel 9 Heart rate |  | mobile_app | 
+sensor.pixel_9_heart_rate_variability | Pixel 9 Heart rate variability |  | mobile_app | duration
+sensor.pixel_9_oxygen_saturation | Pixel 9 Oxygen saturation |  | mobile_app | 
+sensor.pixel_9_respiratory_rate | Pixel 9 Respiratory rate |  | mobile_app | 
+sensor.pixel_9_resting_heart_rate | Pixel 9 Resting heart rate |  | mobile_app | 
+sensor.pixel_9_sleep_duration | Pixel 9 Sleep duration |  | mobile_app | duration
+sensor.pixel_9_daily_steps | Pixel 9 Daily steps |  | mobile_app | 
+sensor.pixel_9_systolic_blood_pressure | Pixel 9 Systolic blood pressure |  | mobile_app | pressure
+sensor.pixel_9_total_calories_burned | Pixel 9 Total calories burned |  | mobile_app | energy
+sensor.pixel_9_vo2_max | Pixel 9 VO2 max |  | mobile_app | 
+sensor.pixel_9_weight | Pixel 9 Weight |  | mobile_app | weight
+binary_sensor.pixel_9_device_locked | Pixel 9 Device locked |  | mobile_app | 
+binary_sensor.pixel_9_device_secure | Pixel 9 Device secure |  | mobile_app | 
+binary_sensor.pixel_9_keyguard_locked | Pixel 9 Keyguard locked |  | mobile_app | 
+binary_sensor.pixel_9_keyguard_secure | Pixel 9 Keyguard secure |  | mobile_app | 
+sensor.pixel_9_last_used_app | Pixel 9 Last used app |  | mobile_app | 
+sensor.pixel_9_last_reboot | Pixel 9 Last reboot |  | mobile_app | timestamp
+sensor.pixel_9_last_update_trigger | Pixel 9 Last update trigger |  | mobile_app | 
+sensor.pixel_9_light_sensor | Pixel 9 Light sensor |  | mobile_app | illuminance
+binary_sensor.pixel_9_high_accuracy_mode | Pixel 9 High accuracy mode |  | mobile_app | 
+sensor.pixel_9_high_accuracy_update_interval | Pixel 9 High accuracy update interval |  | mobile_app | 
+binary_sensor.pixel_9_mobile_data | Pixel 9 Mobile data |  | mobile_app | 
+binary_sensor.pixel_9_mobile_data_roaming | Pixel 9 Mobile data roaming |  | mobile_app | 
+sensor.pixel_9_wi_fi_connection | Pixel 9 Wi-Fi connection |  | mobile_app | 
+sensor.pixel_9_wi_fi_bssid | Pixel 9 Wi-Fi BSSID |  | mobile_app | 
+sensor.pixel_9_wi_fi_ip_address | Pixel 9 Wi-Fi IP address |  | mobile_app | 
+sensor.pixel_9_wi_fi_link_speed | Pixel 9 Wi-Fi link speed |  | mobile_app | 
+binary_sensor.pixel_9_wi_fi_state | Pixel 9 Wi-Fi state |  | mobile_app | 
+sensor.pixel_9_wi_fi_frequency | Pixel 9 Wi-Fi frequency |  | mobile_app | 
+sensor.pixel_9_wi_fi_signal_strength | Pixel 9 Wi-Fi signal strength |  | mobile_app | signal_strength
+sensor.pixel_9_public_ip_address | Pixel 9 Public IP address |  | mobile_app | 
+binary_sensor.pixel_9_hotspot_state | Pixel 9 Hotspot state |  | mobile_app | 
+sensor.pixel_9_network_type | Pixel 9 Network type |  | mobile_app | enum
+sensor.pixel_9_ipv6_addresses | Pixel 9 IPv6 addresses |  | mobile_app | 
+binary_sensor.pixel_9_nfc_state | Pixel 9 NFC state |  | mobile_app | 
+sensor.pixel_9_next_alarm | Pixel 9 Next alarm |  | mobile_app | timestamp
+sensor.pixel_9_last_notification | Pixel 9 Last notification |  | mobile_app | 
+sensor.pixel_9_last_removed_notification | Pixel 9 Last removed notification |  | mobile_app | 
+sensor.pixel_9_active_notification_count | Pixel 9 Active notification count |  | mobile_app | 
+sensor.pixel_9_media_session | Pixel 9 Media session |  | mobile_app | enum
+sensor.pixel_9_phone_state | Pixel 9 Phone state |  | mobile_app | enum
+sensor.pixel_9_sim_1 | Pixel 9 SIM 1 |  | mobile_app | 
+sensor.pixel_9_sim_2 | Pixel 9 SIM 2 |  | mobile_app | 
+sensor.pixel_9_signal_strength_sim_1 | Pixel 9 Signal strength (SIM 1) |  | mobile_app | signal_strength
+sensor.pixel_9_signal_strength_sim_2 | Pixel 9 Signal strength (SIM 2) |  | mobile_app | signal_strength
+sensor.pixel_9_data_network_type_sim_1 | Pixel 9 Data network type (SIM 1) |  | mobile_app | 
+sensor.pixel_9_data_network_type_sim_2 | Pixel 9 Data network type (SIM 2) |  | mobile_app | 
+binary_sensor.pixel_9_interactive | Pixel 9 Interactive |  | mobile_app | 
+binary_sensor.pixel_9_doze_mode | Pixel 9 Doze mode |  | mobile_app | 
+binary_sensor.pixel_9_power_save | Pixel 9 Power save |  | mobile_app | 
+sensor.pixel_9_pressure_sensor | Pixel 9 Pressure sensor |  | mobile_app | atmospheric_pressure
+sensor.pixel_9_proximity_sensor | Pixel 9 Proximity sensor |  | mobile_app | 
+sensor.pixel_9_steps_sensor | Pixel 9 Steps sensor |  | mobile_app | 
+sensor.pixel_9_internal_storage | Pixel 9 Internal storage |  | mobile_app | 
+sensor.pixel_9_external_storage | Pixel 9 External storage |  | mobile_app | 
+sensor.pixel_9_current_time_zone | Pixel 9 Current time zone |  | mobile_app | 
+sensor.pixel_9_mobile_rx_gb | Pixel 9 Mobile Rx GB |  | mobile_app | 
+sensor.pixel_9_mobile_tx_gb | Pixel 9 Mobile Tx GB |  | mobile_app | 
+sensor.pixel_9_total_rx_gb | Pixel 9 Total Rx GB |  | mobile_app | 
+sensor.pixel_9_total_tx_gb | Pixel 9 Total Tx GB |  | mobile_app | 
+binary_sensor.byron_sx_00_bf |  |  | rfxtrx | 
+event.byron_sx_00_bf |  |  | rfxtrx | 
+sensor.byron_sx_00_bf_geluid | Geluid |  | rfxtrx | 
+sensor.byron_sx_00_bf_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+siren.byron_sx_00_bf |  |  | rfxtrx | 
+switch.file_editor |  |  | hassio | 
+switch.home_assistant_google_drive_backup |  |  | hassio | 
+event.backup_automatic_backup | Automatische back-up |  | backup | 
+sensor.backup_last_attempted_automatic_backup | Recentste gepoogde automatische back-up |  | backup | 
+binary_sensor.sun_solar_rising | Zon opkomst |  | sun | 
+button.p1_meter_identificeren | Identificeren |  | homewizard | 
+sensor.p1_meter_dsmr_versie | DSMR versie |  | homewizard | 
+sensor.p1_meter_slimme_meter_model | Slimme meter model |  | homewizard | 
+sensor.p1_meter_slimme_meter_identificatie | Slimme meter identificatie |  | homewizard | 
+sensor.p1_meter_wi_fi_ssid | Wi-Fi SSID |  | homewizard | 
+sensor.p1_meter_tarief | Tarief |  | homewizard | 
+sensor.p1_meter_wi_fi_sterkte | Wi-Fi sterkte |  | homewizard | 
+sensor.p1_meter_energy_import | Energie import |  | homewizard | 
+sensor.p1_meter_energie_import_tarief_1 | Energie import tarief 1 |  | homewizard | 
+sensor.p1_meter_energie_import_tarief_2 | Energie import tarief 2 |  | homewizard | 
+sensor.p1_meter_energie_export | Energie export |  | homewizard | 
+sensor.p1_meter_energie_export_tarief_1 | Energie export tarief 1 |  | homewizard | 
+sensor.p1_meter_energie_export_tarief_2 | Energie export tarief 2 |  | homewizard | 
+sensor.p1_meter_vermogen | Vermogen |  | homewizard | 
+sensor.p1_meter_vermogen_fase_1 | Vermogen fase 1 |  | homewizard | 
+sensor.p1_meter_vermogen_fase_2 | Vermogen fase 2 |  | homewizard | 
+sensor.p1_meter_vermogen_fase_3 | Vermogen fase 3 |  | homewizard | 
+sensor.p1_meter_spanning_fase_1 | Spanning fase 1 |  | homewizard | 
+sensor.p1_meter_spanning_fase_2 | Spanning fase 2 |  | homewizard | 
+sensor.p1_meter_spanning_fase_3 | Spanning fase 3 |  | homewizard | 
+sensor.p1_meter_stroom | Stroom |  | homewizard | 
+sensor.p1_meter_stroom_fase_1 | Stroom fase 1 |  | homewizard | 
+sensor.p1_meter_stroom_fase_2 | Stroom fase 2 |  | homewizard | 
+sensor.p1_meter_stroom_fase_3 | Stroom fase 3 |  | homewizard | 
+sensor.p1_meter_gemiddeld_verbruik | Gemiddeld verbruik |  | homewizard | 
+sensor.p1_meter_piekverbruik_huidige_maand | Piekverbruik huidige maand |  | homewizard | 
+sensor.gas_meter_gas | Gas |  | homewizard | 
+switch.p1_meter_cloud_verbinding | Cloud verbinding |  | homewizard | 
+sensor.electricity_maps_co2_intensiteit | CO2-intensiteit |  | co2signal | 
+sensor.electricity_maps_elektriciteitsnet_percentage_fossiele_brandstoffen | Elektriciteitsnet percentage fossiele brandstoffen |  | co2signal | 
+sensor.p1_meter_energy_import_cost | sensor Cost |  | energy | 
+sensor.p1_meter_energie_export_compensation | sensor Compensation |  | energy | 
+sensor.gas_meter_gas_cost | sensor Cost |  | energy | 
+binary_sensor.mosquitto_broker_actief | Actief |  | hassio | 
+sensor.mosquitto_broker_versie | Versie |  | hassio | 
+sensor.mosquitto_broker_nieuwste_versie | Nieuwste versie |  | hassio | 
+sensor.mosquitto_broker_cpu_percentage | CPU-percentage |  | hassio | 
+sensor.mosquitto_broker_geheugenpercentage | Geheugenpercentage |  | hassio | 
+switch.mosquitto_broker |  |  | hassio | 
+update.mosquitto_broker_update | Update |  | hassio | 
+binary_sensor.mariadb_actief | Actief |  | hassio | 
+sensor.mariadb_versie | Versie |  | hassio | 
+sensor.mariadb_nieuwste_versie | Nieuwste versie |  | hassio | 
+sensor.mariadb_cpu_percentage | CPU-percentage |  | hassio | 
+sensor.mariadb_geheugenpercentage | Geheugenpercentage |  | hassio | 
+switch.mariadb |  |  | hassio | 
+update.mariadb_update | Update |  | hassio | 
+binary_sensor.phpmyadmin_actief | Actief |  | hassio | 
+sensor.phpmyadmin_versie | Versie |  | hassio | 
+sensor.phpmyadmin_nieuwste_versie | Nieuwste versie |  | hassio | 
+sensor.phpmyadmin_cpu_percentage | CPU-percentage |  | hassio | 
+sensor.phpmyadmin_geheugenpercentage | Geheugenpercentage |  | hassio | 
+switch.phpmyadmin |  |  | hassio | 
+update.phpmyadmin_update | Update |  | hassio | 
+sensor.haos_sbfspot_sbfspot_version | SBFspot Version |  | mqtt | 
+sensor.haos_sbfspot_sma_plantname | SMA Plantname |  | mqtt | 
+sensor.haos_sbfspot_sma_inverter_nom | SMA Inverter Nom |  | mqtt | 
+sensor.haos_sbfspot_sma_timestamp | SMA Timestamp |  | mqtt | 
+sensor.haos_sbfspot_sma_time_inverter | SMA Time Inverter |  | mqtt | 
+sensor.haos_sbfspot_sma_sun_rise | SMA Sun Rise |  | mqtt | 
+sensor.haos_sbfspot_sma_sun_set | SMA Sun Set |  | mqtt | 
+sensor.haos_sbfspot_sma_serial_no | SMA Serial No |  | mqtt | 
+sensor.haos_sbfspot_sma_device_type | SMA device type |  | mqtt | 
+sensor.haos_sbfspot_sma_device_model | SMA device Model |  | mqtt | 
+sensor.haos_sbfspot_sma_device_firmware | SMA device Firmware |  | mqtt | 
+sensor.haos_sbfspot_sma_inverter_status | SMA Inverter Status |  | mqtt | 
+sensor.haos_sbfspot_sma_inverter_running_temp | SMA Inverter Running Temp |  | mqtt | 
+sensor.haos_sbfspot_sma_device_grid_relay | SMA device Grid Relay |  | mqtt | 
+sensor.haos_sbfspot_sma_energy_daily | SMA Energy Daily |  | mqtt | 
+sensor.haos_sbfspot_sma_energy_lifetime | SMA Energy Lifetime |  | mqtt | 
+sensor.haos_sbfspot_sma_ac_power | SMA AC Power |  | mqtt | 
+sensor.haos_sbfspot_sma_ac_power_line_1 | SMA AC Power Line 1 |  | mqtt | 
+sensor.haos_sbfspot_sma_grid_phase_1_voltage | SMA Grid Phase 1 Voltage |  | mqtt | 
+sensor.haos_sbfspot_sma_grid_phase_1_current | SMA Grid Phase 1 Current |  | mqtt | 
+sensor.haos_sbfspot_sma_total_op_time | SMA Total Op Time |  | mqtt | 
+sensor.haos_sbfspot_sma_total_feed_in_time | SMA Total Feed In Time |  | mqtt | 
+sensor.haos_sbfspot_sma_dc_all_strings | SMA DC All Strings |  | mqtt | 
+sensor.haos_sbfspot_sma_array1_pdc | SMA Array1 PDC |  | mqtt | 
+sensor.haos_sbfspot_sma_array2_pdc | SMA Array2 PDC |  | mqtt | 
+sensor.haos_sbfspot_sma_array1_udc | SMA Array1 UDC |  | mqtt | 
+sensor.haos_sbfspot_sma_array2_udc | SMA Array2 UDC |  | mqtt | 
+sensor.haos_sbfspot_sma_array1_idc | SMA Array1 IDC |  | mqtt | 
+sensor.haos_sbfspot_sma_array2_idc | SMA Array2 IDC |  | mqtt | 
+sensor.haos_sbfspot_sma_grid_frequency | SMA Grid Frequency |  | mqtt | 
+sensor.haos_sbfspot_sma_bluetooth_signal | SMA Bluetooth Signal |  | mqtt | 
+sensor.haos_sbfspot_sma_wakeup_time | SMA WakeUp time |  | mqtt | 
+sensor.haos_sbfspot_sma_sleep_time | SMA sleep time |  | mqtt | 
+binary_sensor.haos_sbfspot_running | Actief |  | hassio | 
+sensor.haos_sbfspot_versie | Versie |  | hassio | 
+sensor.haos_sbfspot_nieuwste_versie | Nieuwste versie |  | hassio | 
+sensor.haos_sbfspot_cpu_percentage | CPU-percentage |  | hassio | 
+sensor.haos_sbfspot_geheugenpercentage | Geheugenpercentage |  | hassio | 
+switch.haos_sbfspot |  |  | hassio | 
+update.haos_sbfspot_update | Update |  | hassio | 
+binary_sensor.byron_sx_00_3f |  |  | rfxtrx | 
+event.byron_sx_00_3f |  |  | rfxtrx | 
+sensor.byron_sx_00_3f_geluid | Geluid |  | rfxtrx | 
+sensor.byron_sx_00_3f_signaalsterkte | Signaalsterkte |  | rfxtrx | 
+siren.byron_sx_00_3f |  |  | rfxtrx | 
+binary_sensor.samba_share_actief | Actief |  | hassio | 
+sensor.samba_share_versie | Versie |  | hassio | 
+sensor.samba_share_nieuwste_versie | Nieuwste versie |  | hassio | 
+sensor.samba_share_cpu_percentage | CPU-percentage |  | hassio | 
+sensor.samba_share_geheugenpercentage | Geheugenpercentage |  | hassio | 
+switch.samba_share |  |  | hassio | 
+update.samba_share_update | Update |  | hassio | 
+binary_sensor.terminal_ssh_actief | Actief |  | hassio | 
+binary_sensor.get_hacs_actief | Actief |  | hassio | 
+sensor.terminal_ssh_versie | Versie |  | hassio | 
+sensor.terminal_ssh_nieuwste_versie | Nieuwste versie |  | hassio | 
+sensor.terminal_ssh_cpu_percentage | CPU-percentage |  | hassio | 
+sensor.terminal_ssh_geheugenpercentage | Geheugenpercentage |  | hassio | 
+sensor.get_hacs_versie | Versie |  | hassio | 
+sensor.get_hacs_nieuwste_versie | Nieuwste versie |  | hassio | 
+sensor.get_hacs_cpu_percentage | CPU-percentage |  | hassio | 
+sensor.get_hacs_geheugenpercentage | Geheugenpercentage |  | hassio | 
+switch.terminal_ssh |  |  | hassio | 
+switch.get_hacs |  |  | hassio | 
+update.terminal_ssh_update | Update |  | hassio | 
+update.get_hacs_update | Update |  | hassio | 
+update.hacs_update | HACS update |  | hacs | 
+update.nrgkick_update | NRGKick update |  | hacs | 
+switch.hacs_pre_release | Pre-release |  | hacs | 
+switch.nrgkick_pre_release | Pre-release |  | hacs | 
+number.iti_lader_user_set_charging_current | User-set charging current |  | nrgkick | 
+number.iti_lader_user_set_energy_limit | User-set energy-limit |  | nrgkick | 
+number.iti_lader_user_set_maximum_charge_phases_count | User-set maximum charge phases count |  | nrgkick | 
+sensor.iti_lader_max_rated_current | Max rated current |  | nrgkick | 
+sensor.iti_lader_phase_count_of_the_attachment | Phase count of the attachment |  | nrgkick | 
+sensor.iti_lader_max_current_of_the_attachment_in_ampere | Max current of the attachment in Ampere |  | nrgkick | 
+sensor.iti_lader_attachment_type | Attachment type |  | nrgkick | 
+sensor.iti_lader_attachment_serial_number | Attachment serial number |  | nrgkick | 
+sensor.iti_lader_detected_grid_voltage | Detected grid voltage |  | nrgkick | 
+sensor.iti_lader_detected_grid_frequency | Detected grid frequency |  | nrgkick | 
+sensor.iti_lader_connected_phases_on_grid_side | Connected phases on grid side |  | nrgkick | 
+sensor.iti_lader_ip_address | IP-Address |  | nrgkick | 
+sensor.iti_lader_mac_address | MAC-Address |  | nrgkick | 
+sensor.iti_lader_wifi_name | WiFi name |  | nrgkick | 
+sensor.iti_lader_signal_strength_of_the_currently_connected_network | Signal strength of the currently connected network |  | nrgkick | 
+sensor.iti_lader_software_version_of_smartmodule_controller | Software version of SmartModule controller |  | nrgkick | 
+sensor.iti_lader_hardware_version_of_the_smartmodule_controller | Hardware version of the SmartModule controller |  | nrgkick | 
+sensor.iti_lader_software_version_of_the_main_controller | Software version of the Main controller |  | nrgkick | 
+sensor.iti_lader_hardware_version_of_the_main_controller | Hardware Version of the Main controller |  | nrgkick | 
+sensor.iti_lader_software_version_of_the_touch_controller | Software version of the Touch controller |  | nrgkick | 
+sensor.iti_lader_hardware_version_of_the_touch_controller | Hardware version of the Touch controller |  | nrgkick | 
+sensor.iti_lader_software_version_of_the_star_controller | Software version of the Star controller |  | nrgkick | 
+sensor.iti_lader_hardware_version_of_the_star_controller | Hardware version of the Star controller |  | nrgkick | 
+sensor.iti_lader_user_set_charging_current | User-set charging current |  | nrgkick | 
+sensor.iti_lader_charge_pause_disabled_enabled | Charge pause disabled / enabled |  | nrgkick | 
+sensor.iti_lader_user_set_energy_limit | User-set energy-limit |  | nrgkick | 
+sensor.iti_lader_user_set_maximum_charge_phases_count | User-set maximum charge phases count |  | nrgkick | 
+sensor.iti_lader_total_charged_energy_overall | Total charged energy overall |  | nrgkick | 
+sensor.iti_lader_charged_energy_during_most_recent_charge | Charged energy during most recent charge |  | nrgkick | 
+sensor.iti_lader_average_of_all_phase_voltages | Average of all phase-voltages |  | nrgkick | 
+sensor.iti_lader_max_current_signaled_to_ev | Max current signaled to EV |  | nrgkick | 
+sensor.iti_lader_current_frequency | Current frequency |  | nrgkick | 
+sensor.iti_lader_highest_power_during_most_recent_charge | Highest power during most recent charge |  | nrgkick | 
+sensor.iti_lader_active_power_of_all_phases_combined | Active power of all phases combined |  | nrgkick | 
+sensor.iti_lader_reactive_power_of_all_phases_combined | Reactive power of all phases combined |  | nrgkick | 
+sensor.iti_lader_apparent_power_of_all_phases_combined | Apparent power of all phases combined |  | nrgkick | 
+sensor.iti_lader_power_factor_of_all_phases | Power factor of all phases |  | nrgkick | 
+sensor.iti_lader_voltage_l1 | Voltage L1 |  | nrgkick | 
+sensor.iti_lader_current_l1 | Current L1 |  | nrgkick | 
+sensor.iti_lader_active_power_l1 | Active power L1 |  | nrgkick | 
+sensor.iti_lader_reactive_power_l1 | Reactive power L1 |  | nrgkick | 
+sensor.iti_lader_apparent_power_l1 | Apparent power L1 |  | nrgkick | 
+sensor.iti_lader_power_factor_l1 | Power factor L1 |  | nrgkick | 
+sensor.iti_lader_voltage_l2 | Voltage L2 |  | nrgkick | 
+sensor.iti_lader_current_l2 | Current L2 |  | nrgkick | 
+sensor.iti_lader_active_power_l2 | Active power L2 |  | nrgkick | 
+sensor.iti_lader_reactive_power_l2 | Reactive power L2 |  | nrgkick | 
+sensor.iti_lader_apparent_power_l2 | Apparent power L2 |  | nrgkick | 
+sensor.iti_lader_power_factor_l2 | Power factor L2 |  | nrgkick | 
+sensor.iti_lader_voltage_l3 | Voltage L3 |  | nrgkick | 
+sensor.iti_lader_current_l3 | Current L3 |  | nrgkick | 
+sensor.iti_lader_active_power_l3 | Active power L3 |  | nrgkick | 
+sensor.iti_lader_reactive_power_l3 | Reactive power L3 |  | nrgkick | 
+sensor.iti_lader_apparent_power_l3 | Apparent power L3 |  | nrgkick | 
+sensor.iti_lader_power_factor_l3 | Power factor L3 |  | nrgkick | 
+sensor.iti_lader_current_n | Current N |  | nrgkick | 
+sensor.iti_lader_charging_rate_with_considered_user_defined_average_consumption_of_the_ev_in_kilometer_per_hour | Charging rate with considered user defined average consumption of the EV in Kilometer per Hour |  | nrgkick | 
+sensor.iti_lader_connect_time_of_the_most_recent_charge | Connect time of the most recent charge |  | nrgkick | 
+sensor.iti_lader_charge_time_of_the_most_recent_charge | Charge time of the most recent charge |  | nrgkick | 
+sensor.iti_lader_charging_status | Charging status |  | nrgkick | 
+sensor.iti_lader_tells_whether_if_the_ev_is_allowed_to_charge_1_or_not_0 | Tells whether if the EV is allowed to charge (1) or not (0) |  | nrgkick | 
+sensor.iti_lader_current_switched_relais | Current switched relais |  | nrgkick | 
+sensor.iti_lader_vehicle_plug_in_cycle_count | Vehicle plug-in cycle count |  | nrgkick | 
+sensor.iti_lader_signalizes_if_the_rcd_got_triggered | Signalizes if the RCD got triggered |  | nrgkick | 
+sensor.iti_lader_shows_currently_reported_warning | Shows currently reported warning |  | nrgkick | 
+sensor.iti_lader_shows_currently_reported_error | Shows currently reported error |  | nrgkick | 
+sensor.iti_lader_nrgkick_housing_temperature | NRGkick housing temperature |  | nrgkick | 
+sensor.iti_lader_attachment_phase1_temperature | Attachment phase1 temperature |  | nrgkick | 
+sensor.iti_lader_attachment_phase2_temperature | Attachment phase2 temperature |  | nrgkick | 
+sensor.iti_lader_attachment_phase3_temperature | Attachment phase3 temperature |  | nrgkick | 
+sensor.iti_lader_domestic_attachment_pin1_temperature | Domestic attachment pin1 temperature |  | nrgkick | 
+sensor.iti_lader_domestic_attachment_pin2_temperature | Domestic attachment pin2 temperature |  | nrgkick | 
+switch.iti_lader_charge_pause_disabled_enabled | Charge pause disabled / enabled |  | nrgkick | 
+automation.zet_iti_lader_op_standby_bij_hoog_verbruik | Zet ITI Lader op standby bij hoog verbruik |  | automation | 
+person.friede | Friede |  | person | 
+device_tracker.sm_a546b_friede | SM-A546B-Friede |  | mobile_app | 
+sensor.sm_a546b_friede_detected_activity | SM-A546B-Friede Detected activity |  | mobile_app | enum
+sensor.sm_a546b_friede_sleep_confidence | SM-A546B-Friede Sleep confidence |  | mobile_app | 
+sensor.sm_a546b_friede_sleep_segment | SM-A546B-Friede Sleep segment |  | mobile_app | duration
+binary_sensor.sm_a546b_friede_android_auto | SM-A546B-Friede Android Auto |  | mobile_app | connectivity
+sensor.sm_a546b_friede_os_version | SM-A546B-Friede OS version |  | mobile_app | 
+sensor.sm_a546b_friede_security_patch | SM-A546B-Friede Security patch |  | mobile_app | 
+sensor.sm_a546b_friede_current_version | SM-A546B-Friede Current version |  | mobile_app | 
+sensor.sm_a546b_friede_app_rx_gb | SM-A546B-Friede App Rx GB |  | mobile_app | 
+sensor.sm_a546b_friede_app_tx_gb | SM-A546B-Friede App Tx GB |  | mobile_app | 
+sensor.sm_a546b_friede_app_memory | SM-A546B-Friede App memory |  | mobile_app | 
+binary_sensor.sm_a546b_friede_app_inactive | SM-A546B-Friede App inactive |  | mobile_app | 
+sensor.sm_a546b_friede_app_standby_bucket | SM-A546B-Friede App standby bucket |  | mobile_app | enum
+sensor.sm_a546b_friede_app_importance | SM-A546B-Friede App importance |  | mobile_app | enum
+sensor.sm_a546b_friede_ringer_mode | SM-A546B-Friede Ringer mode |  | mobile_app | enum
+sensor.sm_a546b_friede_audio_mode | SM-A546B-Friede Audio mode |  | mobile_app | enum
+binary_sensor.sm_a546b_friede_headphones | SM-A546B-Friede Headphones |  | mobile_app | 
+binary_sensor.sm_a546b_friede_mic_muted | SM-A546B-Friede Mic muted |  | mobile_app | 
+binary_sensor.sm_a546b_friede_speakerphone | SM-A546B-Friede Speakerphone |  | mobile_app | 
+binary_sensor.sm_a546b_friede_music_active | SM-A546B-Friede Music active |  | mobile_app | 
+sensor.sm_a546b_friede_volume_level_alarm | SM-A546B-Friede Volume level alarm |  | mobile_app | 
+sensor.sm_a546b_friede_volume_level_call | SM-A546B-Friede Volume level call |  | mobile_app | 
+sensor.sm_a546b_friede_volume_level_music | SM-A546B-Friede Volume level music |  | mobile_app | 
+sensor.sm_a546b_friede_volume_level_ringer | SM-A546B-Friede Volume level ringer |  | mobile_app | 
+sensor.sm_a546b_friede_volume_level_notification | SM-A546B-Friede Volume level notification |  | mobile_app | 
+sensor.sm_a546b_friede_volume_level_system | SM-A546B-Friede Volume level system |  | mobile_app | 
+sensor.sm_a546b_friede_volume_level_dtmf | SM-A546B-Friede Volume level DTMF |  | mobile_app | 
+sensor.sm_a546b_friede_volume_level_accessibility | SM-A546B-Friede Volume level accessibility |  | mobile_app | 
+sensor.sm_a546b_friede_battery_level | SM-A546B-Friede Battery level |  | mobile_app | battery
+sensor.sm_a546b_friede_battery_state | SM-A546B-Friede Battery state |  | mobile_app | enum
+binary_sensor.sm_a546b_friede_is_charging | SM-A546B-Friede Is charging |  | mobile_app | plug
+sensor.sm_a546b_friede_charger_type | SM-A546B-Friede Charger type |  | mobile_app | enum
+sensor.sm_a546b_friede_battery_health | SM-A546B-Friede Battery health |  | mobile_app | enum
+sensor.sm_a546b_friede_battery_temperature | SM-A546B-Friede Battery temperature |  | mobile_app | temperature
+sensor.sm_a546b_friede_battery_power | SM-A546B-Friede Battery power |  | mobile_app | power
+sensor.sm_a546b_friede_remaining_charge_time | SM-A546B-Friede Remaining charge time |  | mobile_app | duration
+sensor.sm_a546b_friede_battery_cycle_count | SM-A546B-Friede Battery cycle count |  | mobile_app | 
+sensor.sm_a546b_friede_bluetooth_connection | SM-A546B-Friede Bluetooth connection |  | mobile_app | 
+binary_sensor.sm_a546b_friede_bluetooth_state | SM-A546B-Friede Bluetooth state |  | mobile_app | 
+sensor.sm_a546b_friede_ble_transmitter | SM-A546B-Friede BLE transmitter |  | mobile_app | enum
+sensor.sm_a546b_friede_beacon_monitor | SM-A546B-Friede Beacon monitor |  | mobile_app | enum
+sensor.sm_a546b_friede_car_battery | SM-A546B-Friede Car battery |  | mobile_app | battery
+sensor.sm_a546b_friede_car_name | SM-A546B-Friede Car name |  | mobile_app | 
+sensor.sm_a546b_friede_car_charging_status | SM-A546B-Friede Car charging status |  | mobile_app | plug
+sensor.sm_a546b_friede_car_ev_connector_type | SM-A546B-Friede Car EV connector type |  | mobile_app | enum
+sensor.sm_a546b_friede_car_fuel | SM-A546B-Friede Car fuel |  | mobile_app | battery
+sensor.sm_a546b_friede_car_fuel_type | SM-A546B-Friede Car fuel type |  | mobile_app | enum
+sensor.sm_a546b_friede_car_odometer | SM-A546B-Friede Car odometer |  | mobile_app | distance
+sensor.sm_a546b_friede_car_speed | SM-A546B-Friede Car speed |  | mobile_app | speed
+sensor.sm_a546b_friede_car_range_remaining | SM-A546B-Friede Car range remaining |  | mobile_app | distance
+sensor.sm_a546b_friede_screen_brightness | SM-A546B-Friede Screen brightness |  | mobile_app | 
+sensor.sm_a546b_friede_screen_off_timeout | SM-A546B-Friede Screen off timeout |  | mobile_app | duration
+sensor.sm_a546b_friede_screen_orientation | SM-A546B-Friede Screen orientation |  | mobile_app | 
+sensor.sm_a546b_friede_screen_rotation | SM-A546B-Friede Screen rotation |  | mobile_app | 
+sensor.sm_a546b_friede_do_not_disturb_sensor | SM-A546B-Friede Do Not Disturb sensor |  | mobile_app | enum
+sensor.sm_a546b_friede_accent_color | SM-A546B-Friede Accent color |  | mobile_app | 
+binary_sensor.sm_a546b_friede_work_profile | SM-A546B-Friede Work profile |  | mobile_app | 
+sensor.sm_a546b_friede_geocoded_location | SM-A546B-Friede Geocoded location |  | mobile_app | 
+sensor.sm_a546b_friede_active_calories_burned | SM-A546B-Friede Active calories burned |  | mobile_app | energy
+sensor.sm_a546b_friede_blood_glucose | SM-A546B-Friede Blood glucose |  | mobile_app | blood_glucose_concentration
+sensor.sm_a546b_friede_body_fat | SM-A546B-Friede Body fat |  | mobile_app | 
+sensor.sm_a546b_friede_diastolic_blood_pressure | SM-A546B-Friede Diastolic blood pressure |  | mobile_app | pressure
+sensor.sm_a546b_friede_daily_distance | SM-A546B-Friede Daily distance |  | mobile_app | distance
+sensor.sm_a546b_friede_daily_elevation_gained | SM-A546B-Friede Daily elevation gained |  | mobile_app | distance
+sensor.sm_a546b_friede_daily_floors | SM-A546B-Friede Daily floors |  | mobile_app | 
+sensor.sm_a546b_friede_heart_rate | SM-A546B-Friede Heart rate |  | mobile_app | 
+sensor.sm_a546b_friede_heart_rate_variability | SM-A546B-Friede Heart rate variability |  | mobile_app | duration
+sensor.sm_a546b_friede_oxygen_saturation | SM-A546B-Friede Oxygen saturation |  | mobile_app | 
+sensor.sm_a546b_friede_respiratory_rate | SM-A546B-Friede Respiratory rate |  | mobile_app | 
+sensor.sm_a546b_friede_resting_heart_rate | SM-A546B-Friede Resting heart rate |  | mobile_app | 
+sensor.sm_a546b_friede_sleep_duration | SM-A546B-Friede Sleep duration |  | mobile_app | duration
+sensor.sm_a546b_friede_daily_steps | SM-A546B-Friede Daily steps |  | mobile_app | 
+sensor.sm_a546b_friede_systolic_blood_pressure | SM-A546B-Friede Systolic blood pressure |  | mobile_app | pressure
+sensor.sm_a546b_friede_total_calories_burned | SM-A546B-Friede Total calories burned |  | mobile_app | energy
+sensor.sm_a546b_friede_vo2_max | SM-A546B-Friede VO2 max |  | mobile_app | 
+sensor.sm_a546b_friede_weight | SM-A546B-Friede Weight |  | mobile_app | weight
+binary_sensor.sm_a546b_friede_device_locked | SM-A546B-Friede Device locked |  | mobile_app | 
+binary_sensor.sm_a546b_friede_device_secure | SM-A546B-Friede Device secure |  | mobile_app | 
+binary_sensor.sm_a546b_friede_keyguard_locked | SM-A546B-Friede Keyguard locked |  | mobile_app | 
+binary_sensor.sm_a546b_friede_keyguard_secure | SM-A546B-Friede Keyguard secure |  | mobile_app | 
+sensor.sm_a546b_friede_last_used_app | SM-A546B-Friede Last used app |  | mobile_app | 
+sensor.sm_a546b_friede_last_reboot | SM-A546B-Friede Last reboot |  | mobile_app | timestamp
+sensor.sm_a546b_friede_last_update_trigger | SM-A546B-Friede Last update trigger |  | mobile_app | 
+sensor.sm_a546b_friede_light_sensor | SM-A546B-Friede Light sensor |  | mobile_app | illuminance
+binary_sensor.sm_a546b_friede_high_accuracy_mode | SM-A546B-Friede High accuracy mode |  | mobile_app | 
+sensor.sm_a546b_friede_high_accuracy_update_interval | SM-A546B-Friede High accuracy update interval |  | mobile_app | 
+binary_sensor.sm_a546b_friede_mobile_data | SM-A546B-Friede Mobile data |  | mobile_app | 
+binary_sensor.sm_a546b_friede_mobile_data_roaming | SM-A546B-Friede Mobile data roaming |  | mobile_app | 
+sensor.sm_a546b_friede_wi_fi_connection | SM-A546B-Friede Wi-Fi connection |  | mobile_app | 
+sensor.sm_a546b_friede_wi_fi_bssid | SM-A546B-Friede Wi-Fi BSSID |  | mobile_app | 
+sensor.sm_a546b_friede_wi_fi_ip_address | SM-A546B-Friede Wi-Fi IP address |  | mobile_app | 
+sensor.sm_a546b_friede_wi_fi_link_speed | SM-A546B-Friede Wi-Fi link speed |  | mobile_app | 
+binary_sensor.sm_a546b_friede_wi_fi_state | SM-A546B-Friede Wi-Fi state |  | mobile_app | 
+sensor.sm_a546b_friede_wi_fi_frequency | SM-A546B-Friede Wi-Fi frequency |  | mobile_app | 
+sensor.sm_a546b_friede_wi_fi_signal_strength | SM-A546B-Friede Wi-Fi signal strength |  | mobile_app | signal_strength
+sensor.sm_a546b_friede_public_ip_address | SM-A546B-Friede Public IP address |  | mobile_app | 
+binary_sensor.sm_a546b_friede_hotspot_state | SM-A546B-Friede Hotspot state |  | mobile_app | 
+sensor.sm_a546b_friede_network_type | SM-A546B-Friede Network type |  | mobile_app | enum
+sensor.sm_a546b_friede_ipv6_addresses | SM-A546B-Friede IPv6 addresses |  | mobile_app | 
+binary_sensor.sm_a546b_friede_nfc_state | SM-A546B-Friede NFC state |  | mobile_app | 
+sensor.sm_a546b_friede_next_alarm | SM-A546B-Friede Next alarm |  | mobile_app | timestamp
+sensor.sm_a546b_friede_last_notification | SM-A546B-Friede Last notification |  | mobile_app | 
+sensor.sm_a546b_friede_last_removed_notification | SM-A546B-Friede Last removed notification |  | mobile_app | 
+sensor.sm_a546b_friede_active_notification_count | SM-A546B-Friede Active notification count |  | mobile_app | 
+sensor.sm_a546b_friede_media_session | SM-A546B-Friede Media session |  | mobile_app | enum
+sensor.sm_a546b_friede_phone_state | SM-A546B-Friede Phone state |  | mobile_app | enum
+sensor.sm_a546b_friede_sim_1 | SM-A546B-Friede SIM 1 |  | mobile_app | 
+sensor.sm_a546b_friede_sim_2 | SM-A546B-Friede SIM 2 |  | mobile_app | 
+sensor.sm_a546b_friede_signal_strength_sim_1 | SM-A546B-Friede Signal strength (SIM 1) |  | mobile_app | signal_strength
+sensor.sm_a546b_friede_signal_strength_sim_2 | SM-A546B-Friede Signal strength (SIM 2) |  | mobile_app | signal_strength
+sensor.sm_a546b_friede_data_network_type_sim_1 | SM-A546B-Friede Data network type (SIM 1) |  | mobile_app | 
+sensor.sm_a546b_friede_data_network_type_sim_2 | SM-A546B-Friede Data network type (SIM 2) |  | mobile_app | 
+binary_sensor.sm_a546b_friede_interactive | SM-A546B-Friede Interactive |  | mobile_app | 
+binary_sensor.sm_a546b_friede_doze_mode | SM-A546B-Friede Doze mode |  | mobile_app | 
+binary_sensor.sm_a546b_friede_power_save | SM-A546B-Friede Power save |  | mobile_app | 
+sensor.sm_a546b_friede_proximity_sensor | SM-A546B-Friede Proximity sensor |  | mobile_app | 
+sensor.sm_a546b_friede_steps_sensor | SM-A546B-Friede Steps sensor |  | mobile_app | 
+sensor.sm_a546b_friede_internal_storage | SM-A546B-Friede Internal storage |  | mobile_app | 
+sensor.sm_a546b_friede_external_storage | SM-A546B-Friede External storage |  | mobile_app | 
+sensor.sm_a546b_friede_current_time_zone | SM-A546B-Friede Current time zone |  | mobile_app | 
+sensor.sm_a546b_friede_mobile_rx_gb | SM-A546B-Friede Mobile Rx GB |  | mobile_app | 
+sensor.sm_a546b_friede_mobile_tx_gb | SM-A546B-Friede Mobile Tx GB |  | mobile_app | 
+sensor.sm_a546b_friede_total_rx_gb | SM-A546B-Friede Total Rx GB |  | mobile_app | 
+sensor.sm_a546b_friede_total_tx_gb | SM-A546B-Friede Total Tx GB |  | mobile_app | 
+select.p1_meter_batterijgroepmodus | Laadstrategie van batterijgroep |  | homewizard | 
+sensor.pixel_9_basal_body_temperature | Pixel 9 Basal body temperature |  | mobile_app | temperature
+sensor.pixel_9_basal_metabolic_rate | Pixel 9 Basal metabolic rate |  | mobile_app | 
+sensor.pixel_9_body_temperature | Pixel 9 Body temperature |  | mobile_app | temperature
+sensor.pixel_9_body_water_mass | Pixel 9 Body water mass |  | mobile_app | weight
+sensor.pixel_9_bone_mass | Pixel 9 Bone mass |  | mobile_app | weight
+sensor.pixel_9_height | Pixel 9 Height |  | mobile_app | distance
+sensor.pixel_9_daily_hydration | Pixel 9 Daily hydration |  | mobile_app | volume
+sensor.pixel_9_lean_body_mass | Pixel 9 Lean body mass |  | mobile_app | weight
+notify.pixel_9 |  |  | mobile_app | 
+notify.sm_a546b_friede |  |  | mobile_app | 
+number.p1_meter_status_lampje_helderheid | Status lampje helderheid |  | homewizard | 
+sensor.p1_meter_wi_fi_rssi | Wi-Fi RSSI |  | homewizard | 
+sensor.p1_meter_battery_group_power | Battery group power |  | homewizard | 
+sensor.p1_meter_battery_group_target_power | Battery group target power |  | homewizard | 
+sensor.p1_meter_bedrijfstijd | Bedrijfstijd |  | homewizard | 
+update.nest_legacy_update | Nest Legacy update |  | hacs | 
+switch.nest_legacy_pre_release | Pre-release |  | hacs | 
+camera.front_door_front_door_camera |  |  | nest_legacy | 
+camera.living_room_living_room_camera |  |  | nest_legacy | 
+camera.backyard_backyard_achtertuin |  |  | nest_legacy | 
+event.front_door_front_door_camera_chime | Chime |  | nest_legacy | 
+event.front_door_front_door_camera_motion | Motion |  | nest_legacy | 
+event.living_room_living_room_camera_motion | Motion |  | nest_legacy | 
+event.backyard_backyard_achtertuin_motion | Motion |  | nest_legacy | 
+select.thuis |  |  | nest_legacy | 
+switch.front_door_front_door_camera_streaming | Streaming |  | nest_legacy | 
+switch.front_door_front_door_camera_audio | Audio |  | nest_legacy | 
+switch.front_door_front_door_camera_indoor_chime | Indoor chime |  | nest_legacy | 
+switch.living_room_living_room_camera_streaming | Streaming |  | nest_legacy | 
+switch.living_room_living_room_camera_audio | Audio |  | nest_legacy | 
+switch.backyard_backyard_achtertuin_streaming | Streaming |  | nest_legacy | 
+switch.backyard_backyard_achtertuin_audio | Audio |  | nest_legacy | 
+badkamer | Badkamer
+bedroom | Bedroom
+buiten | Buiten
+bureau_friede | Bureau Friede
+bureau_pieter | Bureau Pieter
+inkom | Inkom
+keuken | Keuken
+kitchen | Kitchen
+living | Living
+living_room | Living Room
+salon | Salon
+slaapkamer | Slaapkamer
+slaapkamer_jan | Slaapkamer jan
+slaapkamer_jolien | Slaapkamer jolien
+slaapkamer_mapa | Slaapkamer mapa
+slaapkamer_stijn | Slaapkamer stijn
+front_door | Front Door
+backyard | Backyard
