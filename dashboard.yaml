@@ -352,70 +352,7 @@ views:
             name: Compensatie export
 
   ##############################################
-  # VIEW 5 - LAADPAAL
-  ##############################################
-  - title: Laadpaal
-    path: laadpaal
-    icon: mdi:ev-station
-    cards:
-      - type: glance
-        title: Status laadpaal
-        entities:
-          - entity: sensor.iti_lader_charging_status
-            name: Status
-            icon: mdi:ev-plug-type2
-          - entity: sensor.iti_lader_active_power_of_all_phases_combined
-            name: Vermogen
-            icon: mdi:flash
-          - entity: sensor.iti_lader_charged_energy_during_most_recent_charge
-            name: Geladen sessie
-            icon: mdi:battery-charging
-          - entity: sensor.iti_lader_total_charged_energy_overall
-            name: Totaal geladen
-            icon: mdi:counter
-          - entity: sensor.iti_lader_charge_time_of_the_most_recent_charge
-            name: Laadtijd
-            icon: mdi:timer
-
-      - type: entities
-        title: Instellingen laadpaal
-        entities:
-          - entity: number.iti_lader_user_set_charging_current
-            name: Laadstroom instelling
-          - entity: number.iti_lader_user_set_energy_limit
-            name: Energielimiet
-          - entity: number.iti_lader_user_set_maximum_charge_phases_count
-            name: Aantal fasen
-          - entity: switch.iti_lader_charge_pause_disabled_enabled
-            name: Laadpauze
-
-      - type: glance
-        title: Spanning & Stroom per fase
-        entities:
-          - entity: sensor.iti_lader_voltage_l1
-            name: Spanning L1
-            icon: mdi:sine-wave
-          - entity: sensor.iti_lader_current_l1
-            name: Stroom L1
-            icon: mdi:flash
-          - entity: sensor.iti_lader_voltage_l2
-            name: Spanning L2
-            icon: mdi:sine-wave
-          - entity: sensor.iti_lader_current_l2
-            name: Stroom L2
-            icon: mdi:flash
-          - entity: sensor.iti_lader_voltage_l3
-            name: Spanning L3
-            icon: mdi:sine-wave
-          - entity: sensor.iti_lader_current_l3
-            name: Stroom L3
-            icon: mdi:flash
-
-      - type: automation
-        entity: automation.zet_iti_lader_op_standby_bij_hoog_verbruik
-
-  ##############################################
-  # VIEW 6 - CAMERA'S
+  # VIEW 5 - CAMERA'S
   ##############################################
   - title: Camera's
     path: cameras
@@ -453,9 +390,7 @@ views:
             icon: mdi:motion-sensor
 
   ##############################################
-  # VIEW 7 - TELEFOONS
-  # Switched from glance to entities to avoid
-  # "Entity not found" for string/binary sensors
+  # VIEW 6 - TELEFOONS
   ##############################################
   - title: Telefoons
     path: telefoons
@@ -512,9 +447,7 @@ views:
             icon: mdi:application
 
   ##############################################
-  # VIEW 8 - SYSTEEM
-  # Switched glance cards to entities to fix
-  # "Entity not found" for hassio sensors
+  # VIEW 7 - SYSTEEM
   ##############################################
   - title: Systeem
     path: systeem
@@ -559,6 +492,8 @@ views:
             name: HA OS
           - entity: update.hacs_update
             name: HACS
+          - entity: update.home_assistant_google_drive_backup_update
+            name: Google Drive Backup
           - entity: update.mosquitto_broker_update
             name: Mosquitto
           - entity: update.mariadb_update
@@ -571,8 +506,6 @@ views:
             name: Terminal SSH
           - entity: update.haos_sbfspot_update
             name: SBFspot
-          - entity: update.nrgkick_update
-            name: NRGKick
           - entity: update.nest_legacy_update
             name: Nest Legacy
 
@@ -600,18 +533,19 @@ views:
           - entity: binary_sensor.home_assistant_google_drive_backup_running
             name: Google Drive Backup
             icon: mdi:google-drive
-          - entity: binary_sensor.phpmyadmin_actief
-            name: phpMyAdmin
-            icon: mdi:database-eye
 
       - type: entities
-        title: Back-up
+        title: Back-up (Google Drive)
         entities:
-          - entity: sensor.backup_backup_manager_state
-            name: Status
-          - entity: sensor.backup_last_successful_automatic_backup
-            name: Laatste back-up
-          - entity: sensor.backup_next_scheduled_automatic_backup
-            name: Volgende back-up
-          - entity: sensor.backup_last_attempted_automatic_backup
-            name: Laatste poging
+          - entity: sensor.home_assistant_google_drive_backup_versie
+            name: Add-on versie
+            icon: mdi:google-drive
+          - entity: sensor.home_assistant_google_drive_backup_nieuwste_versie
+            name: Nieuwste versie
+            icon: mdi:update
+          - entity: sensor.home_assistant_google_drive_backup_cpu_percentage
+            name: CPU
+            icon: mdi:cpu-64-bit
+          - entity: sensor.home_assistant_google_drive_backup_geheugenpercentage
+            name: Geheugen
+            icon: mdi:memory
